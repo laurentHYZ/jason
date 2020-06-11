@@ -1,22 +1,26 @@
-#+TITLE: Python presentation
+#+TITLE: Jason Python Class
 
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.8.0
 
 #+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><p>%A %a</p><p><a href="%u">%u</a></p>
+#+REVEAL_THEME: beige
 
 
-#+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/e2a/boise-downtown-1387405.jpg
-
-#+Subtitle: let's see
+# ./assets/stars.jpg
+#+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg
+#+Subtitle: to be decided
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
 #+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/index.html
 
-* Sick of floating3 3
+* Slide 1
 
-#+ATTR_REVEAL: :frag (roll-in)
-#+ATTR_ORG: :width 600
-[[file:./assets/whichdayisit2.png]]
+#+NAME: fig: Jason
+#+CAPTION: Jason and the Golden Fleece
+#+ATTR_ORG: :width 200/250/300/400/500/600
+#+ATTR_LATEX: :width 2.0in
+#+ATTR_HTML: :width 200/250/300/400/500/600px
+[[file:./assets/jason.jpg]]
 #+ATTR_REVEAL: :frag (roll-in)
 - asdf
 - aaa
