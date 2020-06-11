@@ -5,23 +5,22 @@
 #+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><p>%A %a</p><p><a href="%u">%u</a></p>
 
 
-#+REVEAL_TITLE_SLIDE_BACKGROUND: https://www.bdphile.info/static/images/media/cover/127040.jpg
+#+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/e2a/boise-downtown-1387405.jpg
 
 #+Subtitle: let's see
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
-#+REVEAL_TALK_URL: https://laurenthyz.github.io/index.html
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/index.html
 
 * Sick of floating3 3
 
-#+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/e2a/boise-downtown-1387405.jpg
 #+ATTR_REVEAL: :frag (roll-in)
 #+ATTR_ORG: :width 600
-[[file:./whichdayisit2.png]]
+[[file:./assets/whichdayisit2.png]]
 #+ATTR_REVEAL: :frag (roll-in)
 - asdf
 - aaa
-- bbb
+#  - bbhb
 
 #+BEGIN_NOTES
   Enter speaker notes here.
