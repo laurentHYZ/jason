@@ -9,7 +9,7 @@
 #+Subtitle: Touching Base and setting up
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
-#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/lesson1.html
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/lesson0.html
 * Warming up and touching base
 ** Proper set-up before the class
 - Open your web.wechat window
