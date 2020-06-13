@@ -52,6 +52,8 @@ Try to help them answer the question just like we did during the class.
  - They only understand Machine Language
    (typically binaries, /i.e./ a bunch of 0 and 1)
  - MACHINE LANGUAGE is impractical for HUMANS to learn, MACHINE CODE is not humanly readable!
+
+
 ** Update your big picture!
 #+BEGIN_EXPORT html
 
@@ -63,6 +65,14 @@ Try to help them answer the question just like we did during the class.
 - Those super-heroes are : C, C#, C++, Java, Python, Java-script etc...
 - You can call those super-heroes and invite them onto your computer
 - Provided we speak their language we can ask those super-heroes anything!
+
+** Update your big picture!
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+
+#+END_EXPORT
+
 ** Spoiled for choice, which super-hero will you pick?
  Which super-hero will you pick to control your computer?
  Will you pick the fastest (C)? Will you pick the cutest (Scratch)? Will you pic the most popular (Python)?
@@ -71,6 +81,16 @@ Try to help them answer the question just like we did during the class.
 - Easy to learn, open-source, powerful and popular across researchers...Python rocks!
 - Learning Python basics properly and without rushing will greatly increase your ability to learn the second one (In Mainland China that second language is typically C++)
 
-** Nerd Alert!
-You might read that "Python is an interpreted language blabla" but we will only go there in due time and that's not now.
+** Next class we write hello.py
+- From that moment on Python will be your main partner
+- Your focus will be to:
+    - learn Python's grammar and vocabulary
+    - write correct sentences with clear commands
+Next class we will write a simple hello.py to our beloved Python super-hero.
 
+* Update your big picture!
+Ok let's wrap up this lesson review.
+Please redraw your Big Picture from scratch
+#+BEGIN_EXPORT html
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u7jfmkhitu47y/"></iframe>
+#+END_EXPORT
