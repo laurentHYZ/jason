@@ -1,0 +1,76 @@
+#+TITLE: Jason Python Class 0/10
+
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.8.0
+
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><p>%A %a</p><p><a href="%u">%u</a></p>
+#+REVEAL_THEME: moon
+# ./assets/stars.jpg
+#+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg
+#+Subtitle: Touching Base and setting up
+#+Author: laurent
+#+Email: laurent_pinson@hotmail.com
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/lesson1.html
+* Warming up and touching base
+** Proper set-up before the class
+- Open your web.wechat window
+- open your meet room https://meet.jit.si/jasonchengyu
+  共享电脑摄像头和麦克风两种方法（1-接受网页自动发放的共享提示 2-登上meet.jit.si后共享资源）
+  截图
+- put your headset and mic on, make sure both are working properly
+
+** Things Jason likes:
+- Sausage Man (香肠派对), a battle royale game stylized to the likenings of Fortnite and PUBG (PlayerUnknown's BattleGrounds ).
+- Super Mario Bros
+- Drawing
+** Jason & programming
+- Wants to learn programming in order to write game and make lots of money :)
+- After our python introduction in Phuket, Jason went on to learn through 核桃编程 www.hetao101.com
+- Through 核桃编程Jason focused mainly on Scratch coding coding ( and that's good )
+  - For reference, here is the standard progression from hetao101.com
+    https://img.hetao101.com/assets/pc/landing3.0/jieduan.png
+* Lesson 0/10
+** Restaurants STORE and PROCESS food.
+Restaurants must be able to STORE food & PROCESS/COOK it.
+A storage space full of food is not a restaurant.
+A cook and his knives alone is not a restaurant.
+A skilled cook with access to food storage
+** Computers are machines that STORE information and PROCESS that information
+Essentially a computer is a machine that can STORE and PROCESS information.
+Based on that definition & the things we discussed, please draw a computer
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+#+END_EXPORT
+
+** Computers are everywhere!
+Ask the adults around you:
+- "Dad, do you think that phones are computers? "
+- "Mum, do you think that a TESLA car is a computer?"
+- "Teacher is your Huawei's watch a computer too?"
+Try to help them answer the question just like we did during the class.
+** Computers are powerful... but their Machine Language is too difficult
+ - They only understand Machine Language
+   (typically binaries, /i.e./ a bunch of 0 and 1)
+ - MACHINE LANGUAGE is impractical for HUMANS to learn, MACHINE CODE is not humanly readable!
+** Update your big picture!
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+
+#+END_EXPORT
+
+** Fortunately we have many super heroes that speak ML
+- Those super-heroes are : C, C#, C++, Java, Python, Java-script etc...
+- You can call those super-heroes and invite them onto your computer
+- Provided we speak their language we can ask those super-heroes anything!
+** Spoiled for choice, which super-hero will you pick?
+ Which super-hero will you pick to control your computer?
+ Will you pick the fastest (C)? Will you pick the cutest (Scratch)? Will you pic the most popular (Python)?
+ It is not an easy question, and it does depend on your age and experience...
+** Let's pick Python as our first language
+- Easy to learn, open-source, powerful and popular across researchers...Python rocks!
+- Learning Python basics properly and without rushing will greatly increase your ability to learn the second one (In Mainland China that second language is typically C++)
+
+** Nerd Alert!
+You might read that "Python is an interpreted language blabla" but we will only go there in due time and that's not now.
+
