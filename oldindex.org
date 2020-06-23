@@ -3,14 +3,15 @@
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.8.0
 
 #+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><p>%A %a</p><p><a href="%u">%u</a></p>
-#+REVEAL_THEME: beige
+#+REVEAL_THEME: moon
 
 
 # ./assets/stars.jpg
 #+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg
-#+Subtitle: to be decided
+#+Subtitle: testing things here
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
+
 #+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/index.html
 
 * Slide 1
@@ -29,6 +30,7 @@
 #+BEGIN_NOTES
   Enter speaker notes here.
 #+END_NOTES
+
 
 
 #+REVEAL: split

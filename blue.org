@@ -1,0 +1,231 @@
+#+TITLE: Jason Python Class
+
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.8.0
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+ATTR_ORG: :width 200/250/300/400/500/600
+#+ATTR_LATEX: :width 2.0in
+#+ATTR_HTML: :width 200/250/300/400/500/600px
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><p>%A %a</p><p><a href="%u">%u</a></p>
+#+REVEAL_THEME: moon
+# ./assets/stars.jpg
+#+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg
+#+Subtitle: Touching Base and setting up
+#+Author: laurent
+#+Email: laurent_pinson@hotmail.com
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/blue.html
+* Our First lesson
+** Proper set-up before the class
+- Open your web.wechat window
+- open your meet room https://meet.jit.si/jasonchengyu
+  共享电脑摄像头和麦克风两种方法（1-接受网页自动发放的共享提示 2-登上meet.jit.si后共享资源）
+  截图
+- put your headset and mic on, make sure both are working properly
+
+** Things Jason likes:
+- Sausage Man (香肠派对), a battle royale game stylized to the likenings of Fortnite and PUBG (PlayerUnknown's BattleGrounds ).
+- Super Mario Bros
+- Drawing
+** Jason & programming
+- Wants to learn programming in order to write game and make lots of money :)
+- After our python introduction in Phuket, Jason went on to learn through 核桃编程 www.hetao101.com
+- Through 核桃编程Jason focused mainly on Scratch coding coding ( and that's good )
+  - For reference, here is the standard progression from hetao101.com
+
+ #+REVEAL: split
+        https://img.hetao101.com/assets/pc/landing3.0/jieduan.png
+** STORE and PROCESS
+*** Restaurants STORE and PROCESS food.
+Restaurants must be able to STORE food & PROCESS/COOK it.
+A storage space full of food is not a restaurant.
+A cook and his knives alone is not a restaurant.
+A skilled cook with access to food storage? Now we are talking!
+*** Computers are machines that STORE information and PROCESS that information
+Essentially a computer is a machine that can STORE and PROCESS information.
+Based on that definition & the things we discussed, please draw a computer
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+#+END_EXPORT
+
+*** Computers are everywhere!
+Ask the adults around you:
+- "Dad, do you think that phones are computers? "
+- "Mum, do you think that a TESLA car is a computer?"
+- "Teacher is your Huawei's watch a computer too?"
+Try to help them answer the question just like we did during the class.
+*** Computers are powerful... but their Machine Language is too difficult
+ - They only understand Machine Language
+   (typically binaries, /i.e./ a bunch of 0 and 1)
+ - MACHINE LANGUAGE is impractical for HUMANS to learn, MACHINE CODE is not humanly readable!
+
+*** Update your big picture!
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+
+#+END_EXPORT
+
+** Fortunately we have many super heroes that speak ML
+- Those super-heroes are : C, C#, C++, Java, Python, Java-script etc...
+- You can call those super-heroes and invite them onto your computer
+- Provided we speak their language we can ask those super-heroes anything!
+
+** Update your big picture!
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+
+#+END_EXPORT
+
+** Spoiled for choice, which super-hero will you pick?
+ Which super-hero will you pick to control your computer?
+ Will you pick the fastest (C)? Will you pick the cutest (Scratch)? Will you pic the most popular (Python)?
+ It is not an easy question, and it does depend on your age and experience...
+** Let's pick Python as our first language
+- Easy to learn, open-source, powerful and popular across researchers...Python rocks!
+- Learning Python basics properly and without rushing will greatly increase your ability to learn the second one (In Mainland China that second language is typically C++)
+
+** Update your big picture!
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+
+#+END_EXPORT
+
+** Next class we write hello.py
+- From that moment on Python will be your main partner
+- Your focus will be to:
+    - learn Python's grammar and vocabulary
+    - write correct sentences with clear commands
+Next class we will write a simple hello.py to our beloved Python super-hero.
+
+** Update your big picture!
+Ok let's wrap up this lesson review.
+Please redraw your Big Picture from scratch
+#+BEGIN_EXPORT html
+<iframe width="100%" height="650px" src="https://awwapp.com/b/u7jfmkhitu47y/"></iframe>
+#+END_EXPORT
+
+* New Vocabulary
+** Vocabulary to include in your BP
+根据今天的反馈jason要用房间里的白板画出他脑海里的python big picture
+(要包含以下几项:
+|-------------------------+--------------------------|
+| python 英雄             | computer 电脑            |
+| Store 存储              | Process 处理             |
+| ML 机器语言             | Jason 编程人员           |
+| Envelope 信封           | Letter (信封里的信)      |
+| StandardInput 标准输入  | python's left hand       |
+| python's right hand     | Standard Output 标准输出 |
+| Standard Error 标准错误 | print/say(显示)          |
+| return(返回)            |                          |
+|-------------------------+--------------------------|
+** 从scratch迈向Python?
+I can know that Jason has studied some Scratch. Hopefully he is able to take what he learned there into python. Here is a picture that shows the similarities between both languages:
+ #+REVEAL: split
+[[./assets/scratchtopython.png]]
+* Data types
+** python data types 数据类别：
+Please put the following items within you BP
+  - boolean
+  - string (字符串）
+  - integer整数
+  - float 浮点数
+  - list列表
+  - dictionaries
+
+#+REVEAL: split
+Attention: 重点在string, integer and float
+   Jason should add his hello.py to his big picture
+   making sure he uses variable declaration.
+   他要把他的hello.py 也画进去。
+    hello.py 文件里面不要乱用双引号和括号！
+
+* 从Scratch 迈向 python!
+Jason, after our 2nd lesson I asked  you and your parents how long and far you had been with Scratch. I think it is worth for you to try and connect what we do with scratch, so I have found some picture that illustrate how both languages do the same thing. I hope it helps.
+** input 输入
+图左是 Scratch 的表达方式, 图右是 Python 的语法。在 Scratch 中提问的结果会放入「答案」这个变数, Python 可以使用 input() 达>
+[[./assets/input.png]]
+** output 输出
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+[[./assets/output.png]]
+** arithmetic operations 数学运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+[[./assets/math.png]]
+
+** string operations 字串运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+[[./assets/string.png]]
+** comparison and logical operations 字串运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+[[./assets/logic.png]]
+
+** advanced math 进阶数学运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+[[./assets/math2.png]]
+
+** loop 回圈
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+[[./assets/loop.png]]
+
+** increment 变数
+图左是 Scratch 的表达方式, 图右是 Python 的语法。 Python 可以使用中文「分数」当作变数名称。
+[[./assets/increment.png]]
+
+** list 列表
+图左是 Scratch 的表达方式, 图右是 Python 的语法。 Python 可以使用中文「清单」当作变数名称。
+[[./assets/list.png]]
+*  Comments/variables/input
+** Comments/注释
+Comments are section of your code that will not be executed by Python, they are typically there to explain what is happening (useful when you work with others).
+确保对模块, 函数, 方法和行内注释使用正确的风格
+Python中的注释有单行注释和多行注释.
+Python中单行注释以 # 开头，例如：
+#+BEGIN_SRC python
+# the following code is a print statement
+print("Hello World, my name is Jason!")
+#+END_SRC
+
+
+#+REVEAL: split
+多行注释如下：
+#+BEGIN_SRC python
+'''
+The code below is a simple print statement.
+I am giving python a string of characters,
+and I ask python to send it (to print it, to display it)
+onto the standard output (typically the standard output is
+the screen)
+'''
+print("Hello World, my name is Jason and I am a coder")
+#+END_SRC
+** Creating variables
+We talked about variables already. I said that variables are like labeled/named boxes that contain data.
+check the code below, and guess what python will do when it read it line by line:
+#+BEGIN_SRC python
+jason_age = 10
+jason_best_friend = "Milo"
+jason_birth_year = 2020 - jason_age
+print(jason_age)
+print(jason_best_friend)
+print(jason_birth_year)
+#+END_SRC
+** Use variables as much as you can
+Within the section about comments we asked python to print "Hello World, my name is...".
+Although it is correct, each time we can put data in a box and give that box a name we should do it...so let's do it!
+#+BEGIN_SRC python
+hello = "Hello World, my name is Jason and I am coder".
+byebye = "It was a pleasure to meet you, see you soon"
+print(hello)
+print(byebye)
+#+END_SRC
+** Wrap up and homework
+Here is the code we looked at during the class.
+You asked me:
+- "why are we using a 'f' ?"
+- "what is the empty []?"
+- "Line 19 and 23 why are we using 2 pairs of parentheses/parens?"
+We will solve all those mysteries but for now please read the code below outloud, look at the different colors, and commit line 13,15 and 17 to memory (write those 3 lines 20 times!
+
+#+REVEAL: split
+[[./assets/restaurant.png]]

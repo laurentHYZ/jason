@@ -1,7 +1,11 @@
-#+TITLE: Jason Python Class 0/10
+#+TITLE: Jason Python Class
 
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.8.0
-
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+ATTR_ORG: :width 200/250/300/400/500/600
+#+OPTIONS: toc:nil
+#+ATTR_LATEX: :width 2.0in
+#+ATTR_HTML: :width 200/250/300/400/500/600px
 #+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><p>%A %a</p><p><a href="%u">%u</a></p>
 #+REVEAL_THEME: moon
 # ./assets/stars.jpg
@@ -9,27 +13,27 @@
 #+Subtitle: Touching Base and setting up
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
-#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/lesson0.html
-* Lesson 0/9
-** Background
-*** Warming up and touching base
-*** Proper set-up before the class
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/white.html
+* Our First lesson
+** Proper set-up before the class
 - Open your web.wechat window
 - open your meet room https://meet.jit.si/jasonchengyu
   共享电脑摄像头和麦克风两种方法（1-接受网页自动发放的共享提示 2-登上meet.jit.si后共享资源）
   截图
 - put your headset and mic on, make sure both are working properly
 
-*** Things Jason likes:
+** Things Jason likes:
 - Sausage Man (香肠派对), a battle royale game stylized to the likenings of Fortnite and PUBG (PlayerUnknown's BattleGrounds ).
 - Super Mario Bros
 - Drawing
-*** Jason & programming
+** Jason & programming
 - Wants to learn programming in order to write game and make lots of money :)
 - After our python introduction in Phuket, Jason went on to learn through 核桃编程 www.hetao101.com
 - Through 核桃编程Jason focused mainly on Scratch coding coding ( and that's good )
   - For reference, here is the standard progression from hetao101.com
-    https://img.hetao101.com/assets/pc/landing3.0/jieduan.png
+
+ #+REVEAL: split
+        https://img.hetao101.com/assets/pc/landing3.0/jieduan.png
 ** STORE and PROCESS
 *** Restaurants STORE and PROCESS food.
 Restaurants must be able to STORE food & PROCESS/COOK it.
@@ -103,37 +107,25 @@ Please redraw your Big Picture from scratch
 <iframe width="100%" height="650px" src="https://awwapp.com/b/u7jfmkhitu47y/"></iframe>
 #+END_EXPORT
 
-* Lesson 1/9
+* New Vocabulary
 ** Vocabulary to include in your BP
 根据今天的反馈jason要用房间里的白板画出他脑海里的python big picture
 (要包含以下几项:
-- python英雄
-- computer 电脑
-- Store 存储
-- Process处理
-- Machine Language机器语言
-- Jason编程人员
-- Envelope 信封
-- Letter(信封里的信)
-- Standard Input标准输入
-- python`left hand ,
-- python 's right hand
-- Standard Output标准输出
-- Standard Error标准错误,，
-- print/say(显示)
-- return(返回)
-** 从scratch迈向Python
-尽量要自觉把scratch的知识和新学的PYTHON捆绑联系
-今天我可以听出来他学过东西(比如我知道他学过如何"把a变量设置为某个值"，我想知道他还学过什么)。不用给我看他写得游戏这没有意义，我要的[>
-就是scratch 的拼图模块之一)。
-有兴趣请关注此链路：[[http://dl.icdst.org/pdfs/files3/4ffa4aa1bc45437ee8a47595b53aff94.pdf]]
-
-
-
-#+BEGIN_EXPORT html
-<iframe width="100%" height="650px" src="http://dl.icdst.org/pdfs/files3/4ffa4aa1bc45437ee8a47595b53aff94.pdf"></iframe>
-#+END_EXPORT
-* lesson 2/9
+|-------------------------+--------------------------|
+| python 英雄             | computer 电脑            |
+| Store 存储              | Process 处理             |
+| ML 机器语言             | Jason 编程人员           |
+| Envelope 信封           | Letter (信封里的信)      |
+| StandardInput 标准输入  | python's left hand       |
+| python's right hand     | Standard Output 标准输出 |
+| Standard Error 标准错误 | print/say(显示)          |
+| return(返回)            |                          |
+|-------------------------+--------------------------|
+** 从scratch迈向Python?
+I can know that Jason has studied some Scratch. Hopefully he is able to take what he learned there into python. Here is a picture that shows the similarities between both languages:
+ #+REVEAL: split
+[[./assets/scratchtopython.png]]
+* Data types
 ** python data types 数据类别：
 Please put the following items within you BP
   - boolean
@@ -143,56 +135,60 @@ Please put the following items within you BP
   - list列表
   - dictionaries
 
+#+REVEAL: split
 Attention: 重点在string, integer and float
    Jason should add his hello.py to his big picture
    making sure he uses variable declaration.
    他要把他的hello.py 也画进去。
     hello.py 文件里面不要乱用双引号和括号！
 
-* lesson 3/9
-
-input 输入
+* 从Scratch 迈向 python!
+Jason, after our 2nd lesson I asked  you and your parents how long and far you had been with Scratch. I think it is worth for you to try and connect what we do with scratch, so I have found some picture that illustrate how both languages do the same thing. I hope it helps.
+** input 输入
 图左是 Scratch 的表达方式, 图右是 Python 的语法。在 Scratch 中提问的结果会放入「答案」这个变数, Python 可以使用 input() 达>
 [[./assets/input.png]]
-output 输出
+** output 输出
 图左是 Scratch 的表达方式, 图右是 Python 的语法。
 [[./assets/output.png]]
-arithmetic operations 数学运算
+** arithmetic operations 数学运算
 图左是 Scratch 的表达方式, 图右是 Python 的语法。
 [[./assets/math.png]]
 
-string operations 字串运算
+** string operations 字串运算
 图左是 Scratch 的表达方式, 图右是 Python 的语法。
 [[./assets/string.png]]
-comparison and logical operations 字串运算
+** comparison and logical operations 字串运算
 图左是 Scratch 的表达方式, 图右是 Python 的语法。
 [[./assets/logic.png]]
 
-advanced math 进阶数学运算
+** advanced math 进阶数学运算
 图左是 Scratch 的表达方式, 图右是 Python 的语法。
 [[./assets/math2.png]]
 
-loop 回圈
+** loop 回圈
 图左是 Scratch 的表达方式, 图右是 Python 的语法。
 [[./assets/loop.png]]
 
-increment 变数
+** increment 变数
 图左是 Scratch 的表达方式, 图右是 Python 的语法。 Python 可以使用中文「分数」当作变数名称。
 [[./assets/increment.png]]
 
-list 列表
+** list 列表
 图左是 Scratch 的表达方式, 图右是 Python 的语法。 Python 可以使用中文「清单」当作变数名称。
 [[./assets/list.png]]
-* lesson 4/9
+*  Comments/variables/input
 ** Comments/注释
 Comments are section of your code that will not be executed by Python, they are typically there to explain what is happening (useful when you work with others).
 确保对模块, 函数, 方法和行内注释使用正确的风格
-Python中的注释有单行注释和多行注释：
+Python中的注释有单行注释和多行注释.
 Python中单行注释以 # 开头，例如：
 #+BEGIN_SRC python
 # the following code is a print statement
 print("Hello World, my name is Jason!")
 #+END_SRC
+
+
+#+REVEAL: split
 多行注释如下：
 #+BEGIN_SRC python
 '''
@@ -204,7 +200,6 @@ the screen)
 '''
 print("Hello World, my name is Jason and I am a coder")
 #+END_SRC
-多行注释用三个单引号 ''' 或者三个双引号 """ 将注释括起来
 ** Creating variables
 We talked about variables already. I said that variables are like labeled/named boxes that contain data.
 check the code below, and guess what python will do when it read it line by line:
@@ -233,4 +228,5 @@ You asked me:
 - "Line 19 and 23 why are we using 2 pairs of parentheses/parens?"
 We will solve all those mysteries but for now please read the code below outloud, look at the different colors, and commit line 13,15 and 17 to memory (write those 3 lines 20 times!
 
+#+REVEAL: split
 [[./assets/restaurant.png]]
