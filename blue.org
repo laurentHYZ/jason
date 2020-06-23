@@ -9,7 +9,7 @@
 #+REVEAL_THEME: moon
 # ./assets/stars.jpg
 #+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg
-#+Subtitle: Touching Base and setting up
+#+Subtitle: Sliding presentation
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
 #+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/blue.html
