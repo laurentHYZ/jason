@@ -31,7 +31,6 @@
 - Through 核桃编程Jason focused mainly on Scratch coding coding ( and that's good )
   - For reference, here is the standard progression from hetao101.com
 
- #+REVEAL: split
         https://img.hetao101.com/assets/pc/landing3.0/jieduan.png
 ** STORE and PROCESS
 *** Restaurants STORE and PROCESS food.
@@ -229,3 +228,129 @@ We will solve all those mysteries but for now please read the code below outloud
 
 #+REVEAL: split
 [[./assets/restaurant.png]]
+
+* VLive Share, review and if/elif/else
+** 笔记更新
+我的笔记以后就放在以下链路：
+- [[https://laurenthyz.github.io/jason/blue.html][酷酷 This blue-background version with arrow/swipe navigation]]
+- [[https://laurenthyz.github.io/jason/white.html][传统 This white-background, traditional article-style webpage]]
+** Vocabulary review
+We reviewed lesson 2:
+|-------------------------+--------------------------|
+| python 英雄             | computer 电脑            |
+| Store 存储              | Process 处理             |
+| ML 机器语言             | Jason 编程人员           |
+| Envelope 信封           | Letter (信封里的信)      |
+| StandardInput 标准输入  | python's left hand       |
+| python's right hand     | Standard Output 标准输出 |
+| Standard Error 标准错误 | print/say(显示)          |
+| return(返回)            |                          |
+|-------------------------+--------------------------|
+ #+REVEAL: split
+Jason you need to be able to draw your BP with all those components in it. Standard Input is the stream that brings instructions to python. Note that data coming from the keyboard, data coming from sensors (传感器)and commands contained in your hello.py file are all reaching the computer through this input stream.
+Note that whenever you are sending instructions to Python, he will either:
+- implement the storage and process commands internally in the computer
+- display something to the STDOUT (the screen) if you asked him to
+- return something to you if you wrote the relevant return function
+- ...and if at any point he is unable to perform he will send an error traceback to the Stand Error stream.
+** Scratch to Python review
+We reviewed and explained how Scratch and Python do the following:
+|----------------------------------------------------+-------------------------------+----------------------------|
+|                                                    | Scratch                       | Python                     |
+| ask something from the user                        | ask & set                     | input                      |
+|                                                    | (提问 并等待答案)             |                            |
+|----------------------------------------------------+-------------------------------+----------------------------|
+| tell something to the user                         | say                           | print                      |
+| conditional execution                              | if else                       | if elif elif else          |
+| storing data in box                                | set a to hello                | a = "hello"                |
+| incrementing                                       | change x by 1/ 增加 1         | a = a + 1                  |
+| add element to a list                              | add milo to friend_list       | friend_list.append("milo") |
+| delete an element from a list                      | delete 1 of friend_list       | friend_list.pop()          |
+| loops                                              |                               |                            |
+| adding/gluing items into a named box               | set g to join hi + there      | g = "hi" + "there"         |
+|                                                    | （合并 hi 和 there            |                            |
+|----------------------------------------------------+-------------------------------+----------------------------|
+|----------------------------------------------------+-------------------------------+----------------------------|
+ #+REVEAL: split
+|                                                                    |                               |                            |
+| a and b are equal                                  | a = b                         | a == b                     |
+| a is greater than b                                | a > b                         | a > b                      |
+| a is lesser than                                   | a < b                         | a < b                      |
+| both 条件1 and 条件2 are satisfied then we act     | 条件1 且 条件2                | 条件1 and 条件2            |
+| if 条件1 or 条件2  are satisfied then we act       | 条件1 或 条件2                | 条件1 or 条件2             |
+| if 条件1 is not satisfied then we act              | 条件1 不成立的话              | not 条件1                  |
+|----------------------------------------------------+-------------------------------+----------------------------|
+|----------------------------------------------------+-------------------------------+----------------------------|
+| the absolute value of 9                            | 绝对值 of 9                   | abs(9)                     |
+| square root of 9                                   | 平方根 of 9                   | import math   math.sqrt(9) |
+|----------------------------------------------------+-------------------------------+----------------------------|
+ #+REVEAL: split
+| loop 回圈                                          |                               |                            |
+| do something 10 times                              | repeat 10                     | for i in range(10)         |
+| do something once 条件1 is satisfied               | 等待条件一                    | while not 条件一：    pass |
+| do something until something happens               | repeat until money = 0        | while money > 0            |
+| do action_a forever                                | forever do action_a 重复执行  | while True: action_a       |
+|                                                    |                               |                            |
+| if 条件1 is met, then do something                 |                               |                            |
+| if 条件1 is true do action 1, otherwise do action2 |                               |                            |
+|                                                    |                               |                            |
+|                                                    |                               |                            |
+|                                                    |                               |                            |
+|----------------------------------------------------+-------------------------------+----------------------------|
+ #+REVEAL: split
+| number                                             |                               |                            |
+| we introduce a counter variable and set it to 0    | 分数                          | 分数 = 0                   |
+|                                                    | set 分数 to 0                 |                            |
+|                                                    | （将变量 分数 的 值设定为 0） |                            |
+| we increment our counter by 1                      | change 分数 by 1              | 分数 = 分数 + 1            |
+| we set the counter to 0                            |                               |                            |
+|----------------------------------------------------+-------------------------------+----------------------------|
+| list 列表                                          |                               |                            |
+| add item to the list                               |                               |                            |
+| insert item in the list                            |                               |                            |
+| delete item using its rank in the list             |                               |                            |
+| we can check whether an item is in the list        |                               |                            |
+| we can know how many items are in the list         |                               |                            |
+| we can obtain the last item in the list            |                               |                            |
+|                                                    |                               |                            |
+** if elif else
+We spent some time talking about this picture:
+[[./assets/loop.png]]
+Let me show you an example where you see if, elif and else applied.
+ #+REVEAL: split
+#+BEGIN_SRC python
+num = 1122
+if 9 < num < 99:
+    print("Two digit number")
+elif 99 < num < 999:
+    print("Three digit number")
+elif 999 < num < 9999:
+    print("Four digit number")
+else:
+    print("number is <= 9 or >= 9999")
+#+END_SRC
+ #+REVEAL: split
+You can distinguish the following core structure:
+#+BEGIN_SRC python
+if condition_1:
+   block_of_code_1
+elif condition_2:
+   block_of_code_2
+elif condition_3:
+   block_of_code_3
+..
+..
+..
+else:
+  block_of_code_n
+'''
+1. There can be multiple ‘elif’ blocks, however there is only ‘else’ block is allowed.
+2. Out of all these blocks only one block_of_code gets executed. If the condition is true then the code inside ‘if’ gets executed, if condition is false then the next condition(associated with elif) is evaluated and so on. If none of the conditions is true then the code inside ‘else’ gets executed.
+'''
+#+END_SRC
+** 实时协作编程安装
+ - [[https://www.loom.com/share/b32958dc87f448ccb5ce9b9b04f7dd6c][Video-guide to installing Live Share]]
+ - Make sure you install python 3 on your computer:
+   - access your terminal 在系统桌面右上角有一个“放大镜”。点击“放大镜”，在这个对话框内搜索“终端”，点击回车就可以了.
+- when in your terminal 请输入python --version后点击回车，照一下。然后请输入python3 --version后点击回车，照一下。
+  如果python 3 没有安装的话那么根据[[https://v.qq.com/x/page/x30436josgj.html][此中文视频来安装。]]

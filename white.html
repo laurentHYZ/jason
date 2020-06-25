@@ -25,7 +25,7 @@
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide" data-background="https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg">
-<h2></h2><h3>Touching Base and setting up</h3><p> laurent</p><p><a href="https://laurenthyz.github.io/jason/white.html">https://laurenthyz.github.io/jason/white.html</a></p>
+<h2></h2><h3>Static old-school presentation</h3><p> laurent</p><p><a href="https://laurenthyz.github.io/jason/white.html">https://laurenthyz.github.io/jason/white.html</a></p>
 </section>
 <section>
 <section id="slide-1">
@@ -479,6 +479,497 @@ We will solve all those mysteries but for now please read the code below outloud
 <p><img src="./assets/restaurant.png" alt="restaurant.png" />
 </p>
 </div>
+
+</section>
+</section>
+<section>
+<section id="slide-6">
+<h2 id="6"><span class="section-number-2">6</span> Live Share, review and if/elif/else</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+</section>
+<section id="slide-6-1">
+<h3 id="6-1"><span class="section-number-3">6.1</span> 笔记更新</h3>
+<p>
+我的笔记以后就放在以下链路：
+</p>
+<ul>
+<li><a href="https://laurenthyz.github.io/jason/blue.html">酷酷 This blue-background version with arrow/swipe navigation</a></li>
+<li><a href="https://laurenthyz.github.io/jason/white.html">传统 This white-background, traditional article-style webpage</a></li>
+
+</ul>
+</section>
+<section id="slide-6-2">
+<h3 id="6-2"><span class="section-number-3">6.2</span> Vocabulary review</h3>
+<p>
+We reviewed lesson 2:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">python 英雄</td>
+<td class="org-left">computer 电脑</td>
+</tr>
+
+<tr>
+<td class="org-left">Store 存储</td>
+<td class="org-left">Process 处理</td>
+</tr>
+
+<tr>
+<td class="org-left">ML 机器语言</td>
+<td class="org-left">Jason 编程人员</td>
+</tr>
+
+<tr>
+<td class="org-left">Envelope 信封</td>
+<td class="org-left">Letter (信封里的信)</td>
+</tr>
+
+<tr>
+<td class="org-left">StandardInput 标准输入</td>
+<td class="org-left">python&rsquo;s left hand</td>
+</tr>
+
+<tr>
+<td class="org-left">python&rsquo;s right hand</td>
+<td class="org-left">Standard Output 标准输出</td>
+</tr>
+
+<tr>
+<td class="org-left">Standard Error 标准错误</td>
+<td class="org-left">print/say(显示)</td>
+</tr>
+
+<tr>
+<td class="org-left">return(返回)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<p>
+Jason you need to be able to draw your BP with all those components in it. Standard Input is the stream that brings instructions to python. Note that data coming from the keyboard, data coming from sensors (传感器)and commands contained in your hello.py file are all reaching the computer through this input stream.
+Note that whenever you are sending instructions to Python, he will either:
+</p>
+<ul>
+<li>implement the storage and process commands internally in the computer</li>
+<li>display something to the STDOUT (the screen) if you asked him to</li>
+<li>return something to you if you wrote the relevant return function</li>
+<li>&#x2026;and if at any point he is unable to perform he will send an error traceback to the Stand Error stream.</li>
+
+</ul>
+</section>
+<section id="slide-6-3">
+<h3 id="6-3"><span class="section-number-3">6.3</span> Scratch to Python review</h3>
+<p>
+We reviewed and explained how Scratch and Python do the following:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Scratch</th>
+<th scope="col" class="org-left">Python</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">ask something from the user</th>
+<th scope="col" class="org-left">ask &amp; set</th>
+<th scope="col" class="org-left">input</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">(提问 并等待答案)</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">tell something to the user</td>
+<td class="org-left">say</td>
+<td class="org-left">print</td>
+</tr>
+
+<tr>
+<td class="org-left">conditional execution</td>
+<td class="org-left">if else</td>
+<td class="org-left">if elif elif else</td>
+</tr>
+
+<tr>
+<td class="org-left">storing data in box</td>
+<td class="org-left">set a to hello</td>
+<td class="org-left">a = &ldquo;hello&rdquo;</td>
+</tr>
+
+<tr>
+<td class="org-left">incrementing</td>
+<td class="org-left">change x by 1/ 增加 1</td>
+<td class="org-left">a = a + 1</td>
+</tr>
+
+<tr>
+<td class="org-left">add element to a list</td>
+<td class="org-left">add milo to friend<sub>list</sub></td>
+<td class="org-left">friend<sub>list.append</sub>(&ldquo;milo&rdquo;)</td>
+</tr>
+
+<tr>
+<td class="org-left">delete an element from a list</td>
+<td class="org-left">delete 1 of friend<sub>list</sub></td>
+<td class="org-left">friend<sub>list.pop</sub>()</td>
+</tr>
+
+<tr>
+<td class="org-left">loops</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">adding/gluing items into a named box</td>
+<td class="org-left">set g to join hi + there</td>
+<td class="org-left">g = &ldquo;hi&rdquo; + &ldquo;there&rdquo;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">（合并 hi 和 there</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">a and b are equal</th>
+<th scope="col" class="org-left">a = b</th>
+<th scope="col" class="org-left">a == b</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">a is greater than b</th>
+<th scope="col" class="org-left">a &gt; b</th>
+<th scope="col" class="org-left">a &gt; b</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">a is lesser than</th>
+<th scope="col" class="org-left">a &lt; b</th>
+<th scope="col" class="org-left">a &lt; b</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">both 条件1 and 条件2 are satisfied then we act</th>
+<th scope="col" class="org-left">条件1 且 条件2</th>
+<th scope="col" class="org-left">条件1 and 条件2</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">if 条件1 or 条件2  are satisfied then we act</th>
+<th scope="col" class="org-left">条件1 或 条件2</th>
+<th scope="col" class="org-left">条件1 or 条件2</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">if 条件1 is not satisfied then we act</th>
+<th scope="col" class="org-left">条件1 不成立的话</th>
+<th scope="col" class="org-left">not 条件1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">the absolute value of 9</td>
+<td class="org-left">绝对值 of 9</td>
+<td class="org-left">abs(9)</td>
+</tr>
+
+<tr>
+<td class="org-left">square root of 9</td>
+<td class="org-left">平方根 of 9</td>
+<td class="org-left">import math   math.sqrt(9)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">loop 回圈</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">do something 10 times</td>
+<td class="org-left">repeat 10</td>
+<td class="org-left">for i in range(10)</td>
+</tr>
+
+<tr>
+<td class="org-left">do something once 条件1 is satisfied</td>
+<td class="org-left">等待条件一</td>
+<td class="org-left">while not 条件一：    pass</td>
+</tr>
+
+<tr>
+<td class="org-left">do something until something happens</td>
+<td class="org-left">repeat until money = 0</td>
+<td class="org-left">while money &gt; 0</td>
+</tr>
+
+<tr>
+<td class="org-left">do action<sub>a</sub> forever</td>
+<td class="org-left">forever do action<sub>a</sub> 重复执行</td>
+<td class="org-left">while True: action<sub>a</sub></td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">if 条件1 is met, then do something</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">if 条件1 is true do action 1, otherwise do action2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">number</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">we introduce a counter variable and set it to 0</th>
+<th scope="col" class="org-left">分数</th>
+<th scope="col" class="org-left">分数 = 0</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">set 分数 to 0</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">（将变量 分数 的 值设定为 0）</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">we increment our counter by 1</th>
+<th scope="col" class="org-left">change 分数 by 1</th>
+<th scope="col" class="org-left">分数 = 分数 + 1</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">we set the counter to 0</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">list 列表</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">add item to the list</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">insert item in the list</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">delete item using its rank in the list</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">we can check whether an item is in the list</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">we can know how many items are in the list</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">we can obtain the last item in the list</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="slide-6-4">
+<h3 id="6-4"><span class="section-number-3">6.4</span> if elif else</h3>
+<p>
+We spent some time talking about this picture:
+<img src="./assets/loop.png" alt="loop.png" />
+Let me show you an example where you see if, elif and else applied.
+</p>
+</section>
+<section>
+<div class="org-src-container">
+
+<pre  class="src src-python"><span style="color: #f8f8f2;">num</span> = <span style="color: #ff5555; font-weight: bold;">1122</span>
+<span style="color: #ff79c6;">if</span> <span style="color: #ff5555; font-weight: bold;">9</span> &lt; num &lt; <span style="color: #ff5555; font-weight: bold;">99</span>:
+    <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"Two digit number"</span>)
+<span style="color: #ff79c6;">elif</span> <span style="color: #ff5555; font-weight: bold;">99</span> &lt; num &lt; <span style="color: #ff5555; font-weight: bold;">999</span>:
+    <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"Three digit number"</span>)
+<span style="color: #ff79c6;">elif</span> <span style="color: #ff5555; font-weight: bold;">999</span> &lt; num &lt; <span style="color: #ff5555; font-weight: bold;">9999</span>:
+    <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"Four digit number"</span>)
+<span style="color: #ff79c6;">else</span>:
+    <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"number is &lt;= 9 or &gt;= 9999"</span>)
+</pre>
+</div>
+</section>
+<section>
+<p>
+You can distinguish the following core structure:
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-python"><span style="color: #ff79c6;">if</span> condition_1:
+   block_of_code_1
+<span style="color: #ff79c6;">elif</span> condition_2:
+   block_of_code_2
+<span style="color: #ff79c6;">elif</span> condition_3:
+   block_of_code_3
+..
+..
+..
+<span style="color: #ff79c6;">else</span>:
+  block_of_code_n
+<span style="color: #f1fa8c;">'''</span>
+<span style="color: #f1fa8c;">1. There can be multiple &#8216;elif&#8217; blocks, however there is only &#8216;else&#8217; block is allowed.</span>
+<span style="color: #f1fa8c;">2. Out of all these blocks only one block_of_code gets executed. If the condition is true then the code inside &#8216;if&#8217; gets executed, if condition is false then the next condition(associated with elif) is evaluated and so on. If none of the conditions is true then the code inside &#8216;else&#8217; gets executed.</span>
+<span style="color: #f1fa8c;">'''</span>
+</pre>
+</div>
+</section>
+<section id="slide-6-5">
+<h3 id="6-5"><span class="section-number-3">6.5</span> 实时协作编程安装</h3>
+<ul>
+<li><a href="https://www.loom.com/share/b32958dc87f448ccb5ce9b9b04f7dd6c">Video-guide to installing Live Share</a></li>
+<li>Make sure you install python 3 on your computer:
+<ul>
+<li>access your terminal 在系统桌面右上角有一个“放大镜”。点击“放大镜”，在这个对话框内搜索“终端”，点击回车就可以了.</li>
+
+</ul></li>
+
+</ul>
+<ul>
+<li>when in your terminal 请输入python &#x2013;version后点击回车，照一下。然后请输入python3 &#x2013;version后点击回车，照一下。
+如果python 3 没有安装的话那么根据<a href="https://v.qq.com/x/page/x30436josgj.html">此中文视频来安装。</a></li>
+
+</ul>
 </section>
 </section>
 </div>
