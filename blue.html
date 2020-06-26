@@ -99,6 +99,15 @@
 <li><a href="#/slide-6-5">6.5. 实时协作编程安装</a></li>
 </ul>
 </li>
+<li><a href="#/slide-7">7. Stream, Indentation, statements (simple and compound)</a>
+<ul>
+<li><a href="#/slide-7-1">7.1. Reference guide for coming Live Share sessions 实时协作编</a></li>
+<li><a href="#/slide-7-2">7.2. Whiteboard space, go to page 7</a></li>
+<li><a href="#/slide-7-3">7.3. Big Picture in 2mn</a></li>
+<li><a href="#/slide-7-4">7.4. Write the code you memorized</a></li>
+<li><a href="#/slide-7-5">7.5. We try the Live Share tool</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -1021,10 +1030,9 @@ You can distinguish the following core structure:
 ..
 <span style="color: #ff79c6;">else</span>:
   block_of_code_n
-<span style="color: #f1fa8c;">'''</span>
-<span style="color: #f1fa8c;">1. There can be multiple &#8216;elif&#8217; blocks, however there is only &#8216;else&#8217; block is allowed.</span>
-<span style="color: #f1fa8c;">2. Out of all these blocks only one block_of_code gets executed. If the condition is true then the code inside &#8216;if&#8217; gets executed, if condition is false then the next condition(associated with elif) is evaluated and so on. If none of the conditions is true then the code inside &#8216;else&#8217; gets executed.</span>
-<span style="color: #f1fa8c;">'''</span>
+<span style="color: #6272a4;">#</span>
+<span style="color: #6272a4;"># </span><span style="color: #6272a4;">1. There can be multiple &#8216;elif&#8217; blocks, however there is only &#8216;else&#8217; block is allowed.</span>
+<span style="color: #6272a4;"># </span><span style="color: #6272a4;">2. Out of all these blocks only one block_of_code gets executed. If the condition is true then the code inside &#8216;if&#8217; # gets executed, if condition is false then the next condition(associated with elif) is evaluated and so on. If none # of the conditions is true then the code inside &#8216;else&#8217; gets executed.</span>
 </pre>
 </div>
 </section>
@@ -1042,6 +1050,100 @@ You can distinguish the following core structure:
 <ul>
 <li>when in your terminal 请输入python &#x2013;version后点击回车，照一下。然后请输入python3 &#x2013;version后点击回车，照一下。
 如果python 3 没有安装的话那么根据<a href="https://v.qq.com/x/page/x30436josgj.html">此中文视频来安装。</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-7">
+<h2 id="7"><span class="section-number-2">7</span> Stream, Indentation, statements (simple and compound)</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+</section>
+<section id="slide-7-1">
+<h3 id="7-1"><span class="section-number-3">7.1</span> Reference guide for coming Live Share sessions 实时协作编</h3>
+<p>
+Note to Laurent:
+All our Live Share 实时协作编程 meetings will take place <a href="https://prod.liveshare.vsengsaas.visualstudio.com/join?4A27AD73291CAB59289663FDEAF5E4D7E201">here.</a> This link is valid until July 25th. Coach needs to access his Live Share and join a meeting room using his recurring meeting link mentioned above.
+This in turn will generate a access link that should be sent to the student/interviewer each time.
+</p>
+</section>
+<section>
+<p>
+Note to Jason:
+You have 2 options to join our Live Share meetings.
+</p>
+</section>
+<section>
+<p>
+OPTION 1: you copy-paste our permanent link inside your Live Share
+ You open your Visual Studio Code, hit the Live Share icon, hover over the &ldquo;Session details&rdquo; and click on the green icon as explained in this video:
+ <a href="https://www.loom.com/share/1a5d1fd177c443aa89c1a3bbd6074575">Check this short video</a>
+</p>
+
+<p>
+Follow the instructions in the video and copy-paste this link:
+<a href="https://prod.liveshare.vsengsaas.visualstudio.com/join?4A27AD73291CAB59289663FDEAF5E4D7E201">https://prod.liveshare.vsengsaas.visualstudio.com/join?4A27AD73291CAB59289663FDEAF5E4D7E201</a>
+</p>
+
+
+</section>
+<section>
+<p>
+OPTION 2: you click whichever link I send you
+I send you a link that you will click.
+You get the following offline error message? Let me know right away
+</p>
+
+<div id="org99f753d" class="figure">
+<p><img src="./assets/liveshare_offline.png" alt="liveshare_offline.png" width="/400/500/600px" height="500px" />
+</p>
+<p><span class="figure-number">Figure 4: </span>That might happen</p>
+</div>
+</section>
+<section>
+<p>
+Normally though you should see the picture below. Please choose to access the meeting room from your Visual Studio Code:
+</p>
+
+<div class="figure">
+<p><img src="./assets/liveshare_normal.png" alt="liveshare_normal.png" width="400/500/600px" />
+</p>
+</div>
+
+</section>
+<section id="slide-7-2">
+<h3 id="7-2"><span class="section-number-3">7.2</span> Whiteboard space, go to page 7</h3>
+<p>
+From now on each lesson will have its drawing space where we can draw stuff on. If we are on lesson 7, just pick page 7 of the whiteboard.
+</p>
+<iframe width="100%" height="500px" src="https://awwapp.com/b/u7jfmkhitu47y/"></iframe>
+</section>
+<section id="slide-7-3">
+<h3 id="7-3"><span class="section-number-3">7.3</span> Big Picture in 2mn</h3>
+<ul>
+<li>you draw it live</li>
+<li>I introduce the idea of stream (水流？)</li>
+
+</ul>
+</section>
+<section id="slide-7-4">
+<h3 id="7-4"><span class="section-number-3">7.4</span> Write the code you memorized</h3>
+<ul>
+<li>You draw it</li>
+<li>we discuss the importance of space (leading space and trailing space)</li>
+<li>we explain statement, simple statement, compound statement
+(语句)</li>
+<li>we discuss the importance of indentation (缩进 Suō jìn)</li>
+
+</ul>
+</section>
+<section id="slide-7-5">
+<h3 id="7-5"><span class="section-number-3">7.5</span> We try the Live Share tool</h3>
+<ul>
+<li>We test the terminal (终端)</li>
+<li>We write a hello.py file</li>
+<li>We run the hello.py file</li>
 
 </ul>
 </section>

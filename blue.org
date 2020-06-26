@@ -343,10 +343,9 @@ elif condition_3:
 ..
 else:
   block_of_code_n
-'''
-1. There can be multiple ‘elif’ blocks, however there is only ‘else’ block is allowed.
-2. Out of all these blocks only one block_of_code gets executed. If the condition is true then the code inside ‘if’ gets executed, if condition is false then the next condition(associated with elif) is evaluated and so on. If none of the conditions is true then the code inside ‘else’ gets executed.
-'''
+#
+# 1. There can be multiple ‘elif’ blocks, however there is only ‘else’ block is allowed.
+# 2. Out of all these blocks only one block_of_code gets executed. If the condition is true then the code inside ‘if’ # gets executed, if condition is false then the next condition(associated with elif) is evaluated and so on. If none # of the conditions is true then the code inside ‘else’ gets executed.
 #+END_SRC
 ** 实时协作编程安装
  - [[https://www.loom.com/share/b32958dc87f448ccb5ce9b9b04f7dd6c][Video-guide to installing Live Share]]
@@ -354,3 +353,59 @@ else:
    - access your terminal 在系统桌面右上角有一个“放大镜”。点击“放大镜”，在这个对话框内搜索“终端”，点击回车就可以了.
 - when in your terminal 请输入python --version后点击回车，照一下。然后请输入python3 --version后点击回车，照一下。
   如果python 3 没有安装的话那么根据[[https://v.qq.com/x/page/x30436josgj.html][此中文视频来安装。]]
+* Stream, Indentation, statements (simple and compound)
+
+** Reference guide for coming Live Share sessions 实时协作编
+Note to Laurent:
+All our Live Share 实时协作编程 meetings will take place [[https://prod.liveshare.vsengsaas.visualstudio.com/join?4A27AD73291CAB59289663FDEAF5E4D7E201][here.]] This link is valid until July 25th. Coach needs to access his Live Share and join a meeting room using his recurring meeting link mentioned above.
+This in turn will generate a access link that should be sent to the student/interviewer each time.
+#+REVEAL: split
+Note to Jason:
+You have 2 options to join our Live Share meetings.
+#+REVEAL: split
+OPTION 1: you copy-paste our permanent link inside your Live Share
+ You open your Visual Studio Code, hit the Live Share icon, hover over the "Session details" and click on the green icon as explained in this video:
+ [[https://www.loom.com/share/1a5d1fd177c443aa89c1a3bbd6074575][Check this short video]]
+# #+BEGIN_EXPORT html
+
+# <iframe width="100%" height="650px" src="https://www.loom.com/share/1a5d1fd177c443aa89c1a3bbd6074575"></iframe>
+# #+END_EXPORT
+Follow the instructions in the video and copy-paste this link:
+https://prod.liveshare.vsengsaas.visualstudio.com/join?4A27AD73291CAB59289663FDEAF5E4D7E201
+
+
+#+REVEAL: split
+OPTION 2: you click whichever link I send you
+I send you a link that you will click.
+You get the following offline error message? Let me know right away
+#+NAME: fig: Offline
+#+CAPTION: That might happen
+#+ATTR_ORG: :width 400/500/600 :height 500
+#+ATTR_LATEX: :width 2.0in
+#+ATTR_HTML: :width /400/500/600px :height 500px
+[[./assets/liveshare_offline.png]]
+#+REVEAL: split
+Normally though you should see the picture below. Please choose to access the meeting room from your Visual Studio Code:
+#+ATTR_ORG: :width 200/250/300/400/500/600
+#+ATTR_LATEX: :width 2.0in
+#+ATTR_HTML: :width 400/500/600px
+[[./assets/liveshare_normal.png]]
+
+** Whiteboard space, go to page 7
+From now on each lesson will have its drawing space where we can draw stuff on. If we are on lesson 7, just pick page 7 of the whiteboard.
+#+BEGIN_EXPORT html
+<iframe width="100%" height="500px" src="https://awwapp.com/b/u7jfmkhitu47y/"></iframe>
+#+END_EXPORT
+** Big Picture in 2mn
+- you draw it live
+- I introduce the idea of stream (水流？)
+** Write the code you memorized
+- You draw it
+- we discuss the importance of space (leading space and trailing space)
+- we explain statement, simple statement, compound statement
+  (语句)
+- we discuss the importance of indentation (缩进 Suō jìn)
+** We try the Live Share tool
+- We test the terminal (终端)
+- We write a hello.py file
+- We run the hello.py file
