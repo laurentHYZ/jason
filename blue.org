@@ -1,6 +1,8 @@
 #+TITLE: Jason Python Class
 
-#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.8.0
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.0
+
+#+REVEAL_EXTERNAL_PLUGIN: ( chalkboard menu )
 #+REVEAL_EXTRA_CSS: ./mystyle.css
 #+ATTR_ORG: :width 200/250/300/400/500/600
 #+ATTR_LATEX: :width 2.0in
@@ -15,6 +17,9 @@
 #+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/blue.html
 * Our First lesson
 ** Proper set-up before the class
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 - Open your web.wechat window
 - open your meet room https://meet.jit.si/jasonchengyu
   共享电脑摄像头和麦克风两种方法（1-接受网页自动发放的共享提示 2-登上meet.jit.si后共享资源）
@@ -22,10 +27,16 @@
 - put your headset and mic on, make sure both are working properly
 
 ** Things Jason likes:
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 - Sausage Man (香肠派对), a battle royale game stylized to the likenings of Fortnite and PUBG (PlayerUnknown's BattleGrounds ).
 - Super Mario Bros
 - Drawing
 ** Jason & programming
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 - Wants to learn programming in order to write game and make lots of money :)
 - After our python introduction in Phuket, Jason went on to learn through 核桃编程 www.hetao101.com
 - Through 核桃编程Jason focused mainly on Scratch coding coding ( and that's good )
@@ -33,6 +44,9 @@
 
         https://img.hetao101.com/assets/pc/landing3.0/jieduan.png
 ** STORE and PROCESS
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 *** Restaurants STORE and PROCESS food.
 Restaurants must be able to STORE food & PROCESS/COOK it.
 A storage space full of food is not a restaurant.
@@ -58,18 +72,24 @@ Try to help them answer the question just like we did during the class.
  - MACHINE LANGUAGE is impractical for HUMANS to learn, MACHINE CODE is not humanly readable!
 
 *** Update your big picture!
+
 #+BEGIN_EXPORT html
 
 <iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
 
 #+END_EXPORT
-
 ** Fortunately we have many super heroes that speak ML
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 - Those super-heroes are : C, C#, C++, Java, Python, Java-script etc...
 - You can call those super-heroes and invite them onto your computer
 - Provided we speak their language we can ask those super-heroes anything!
 
 ** Update your big picture!
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 #+BEGIN_EXPORT html
 
 <iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
@@ -77,14 +97,23 @@ Try to help them answer the question just like we did during the class.
 #+END_EXPORT
 
 ** Spoiled for choice, which super-hero will you pick?
- Which super-hero will you pick to control your computer?
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
+Which super-hero will you pick to control your computer?
  Will you pick the fastest (C)? Will you pick the cutest (Scratch)? Will you pic the most popular (Python)?
  It is not an easy question, and it does depend on your age and experience...
 ** Let's pick Python as our first language
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 - Easy to learn, open-source, powerful and popular across researchers...Python rocks!
 - Learning Python basics properly and without rushing will greatly increase your ability to learn the second one (In Mainland China that second language is typically C++)
 
 ** Update your big picture!
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 #+BEGIN_EXPORT html
 
 <iframe width="100%" height="650px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
@@ -92,6 +121,9 @@ Try to help them answer the question just like we did during the class.
 #+END_EXPORT
 
 ** Next class we write hello.py
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 - From that moment on Python will be your main partner
 - Your focus will be to:
     - learn Python's grammar and vocabulary
@@ -99,6 +131,9 @@ Try to help them answer the question just like we did during the class.
 Next class we will write a simple hello.py to our beloved Python super-hero.
 
 ** Update your big picture!
+   :PROPERTIES:
+   :UNNUMBERED: notoc
+   :END:
 Ok let's wrap up this lesson review.
 Please redraw your Big Picture from scratch
 #+BEGIN_EXPORT html
@@ -393,8 +428,9 @@ Normally though you should see the picture below. Please choose to access the me
 
 ** Whiteboard space, go to page 7
 From now on each lesson will have its drawing space where we can draw stuff on. If we are on lesson 7, just pick page 7 of the whiteboard.
+#+REVEAL: split
 #+BEGIN_EXPORT html
-<iframe width="100%" height="500px" src="https://awwapp.com/b/u7jfmkhitu47y/"></iframe>
+<iframe width="100%" height="500px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
 #+END_EXPORT
 ** Big Picture in 2mn
 - you draw it live
@@ -409,3 +445,20 @@ From now on each lesson will have its drawing space where we can draw stuff on. 
 - We test the terminal (终端)
 - We write a hello.py file
 - We run the hello.py file
+* testing
+# #+ATTR_REVEAL: :frag (appear)
+# <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+# #+BEGIN_SRC html
+# <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+# #+END_SRC
+
+# #+ATTR_REVEAL: :frag (appear)
+# - aaaa
+# - bbb
+# - ccc
+# -
+#+BEGIN_EXPORT html
+
+<iframe width="100%" height="650px" src="https://scrimba.com/c/cp3ykbS8"></iframe>
+
+#+END_EXPORT
