@@ -465,7 +465,7 @@
 # <iframe width="100%" height="650px" src="https://scrimba.com/c/czbWJRAZ"></iframe>
 
 ** Short video introducing today's class
-The link will be here: ---> blablabla.com <---
+[[https://www.loom.com/share/39a92d85656d4845a74823f7efce41f7]]
 ** Lesson white-board
 
 Either draw here or go to [[https://awwapp.com/b/u4r84anbireo8/]]
