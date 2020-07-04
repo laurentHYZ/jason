@@ -511,9 +511,12 @@ print(grocery_list)
 
 #+REVEAL: split
 #+BEGIN_EXPORT html
-<iframe src="http://brython.info/console.html" width="800" height="400"></iframe>
+
+<iframe src="https://trinket.io/embed/console/13c197b5a3" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 #+END_EXPORT
 
+** Let me show you how to write a letter to python now
 ** Let me show you how to write a letter to python now
 #+ATTR_REVEAL: :frag (appear)
 - I will now show you a special type of video:
@@ -532,3 +535,23 @@ Let's access it by going directly to the URL page: [[https://scrimba.com/c/cybQ7
 #+END_EXPORT
 
 Check out this video where I am showing you how to use this new teaching tool.
+* next lesson ...
+** Short video introducing today's class
+to be announced soon
+** Lesson white-board
+
+Either draw here or go to [[https://awwapp.com/b/u4r84anbireo8/]]
+#+BEGIN_EXPORT html
+<iframe width="100%" height="500px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+#+END_EXPORT
+** Let's chit-chat with Python
+#+BEGIN_EXPORT html
+<iframe src="https://trinket.io/embed/console/13c197b5a3" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_EXPORT
+
+** Writing letter to python
+#+BEGIN_EXPORT html
+
+<iframe src="https://trinket.io/embed/python3/5c78a83738" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+#+END_EXPORT
