@@ -447,111 +447,195 @@
 # - We run the hello.py file
 
 
-* Introducing containers, chatting with python
+# * Introducing containers, chatting with python
 
-# #+ATTR_REVEAL: :frag (appear)
-# <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
-# #+BEGIN_SRC html
-# <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+# # #+ATTR_REVEAL: :frag (appear)
+# # <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+# # #+BEGIN_SRC html
+# # <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+# # #+END_SRC
+
+# # #+ATTR_REVEAL: :frag (appear)
+# # - aaaa
+# # - bbb
+# # - ccc
+# # -
+# # #+BEGIN_EXPORT html
+
+# # <iframe width="100%" height="650px" src="https://scrimba.com/c/czbWJRAZ"></iframe>
+
+# ** Short video introducing today's class
+# [[https://www.loom.com/share/39a92d85656d4845a74823f7efce41f7]]
+# ** Lesson white-board
+
+# Either draw here or go to [[https://awwapp.com/b/u4r84anbireo8/]]
+# #+BEGIN_EXPORT html
+# <iframe width="100%" height="500px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
+# #+END_EXPORT
+# **
+# ** Let's chit-chat with Python
+# # #+END_EXPORT
+# Earlier I told you we could write letters to python, what I did not tell you is that we can chat with our super hero too.
+# Here are some sentences/command that you can send to Python when you chat with him.
+# Try those sentences, and if you want make your own sentences!
+# #+REVEAL: split
+# #+BEGIN_SRC python
+# name = "Jason"
+# print(name)
+
+# # A variable name can contain letters, numbers, or _
+# # but can't start with a number
+
+# # There are 5 data types Numbers, Strings, List, Tuple, Dictionary
+# # You can store any of them in the same variable
+
+# name = 15
+# print(name)
+# # The arithmetic operators +, -, *, /, %, **, //
+# print("5 + 2 =", 5+2)
+# print("5 - 2 =", 5-2)
+# print("5 * 2 =", 5*2)
+# # A string is a string of characters surrounded by " or '
+# quote = "Always remember your unique,"
+# multi_line_quote = ''' just like everyone else" '''
+# print(quote + multi_line_quote)
+# # LISTS -------------
+# # A list allows you to create a list of values and manipulate them
+# # Each value has an index with the first one starting at 0
+# grocery_list = ['Juice', 'Tomatoes', 'Potatoes', 'Bananas']
+# print('The first item is', grocery_list[1])
+# # You can change the value stored in a list box
+# grocery_list[0] = "Green Juice"
+# print(grocery_list)
 # #+END_SRC
 
-# #+ATTR_REVEAL: :frag (appear)
-# - aaaa
-# - bbb
-# - ccc
-# -
+# #+REVEAL: split
 # #+BEGIN_EXPORT html
 
-# <iframe width="100%" height="650px" src="https://scrimba.com/c/czbWJRAZ"></iframe>
+# <iframe src="https://trinket.io/embed/console/13c197b5a3" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-** Short video introducing today's class
-[[https://www.loom.com/share/39a92d85656d4845a74823f7efce41f7]]
-** Lesson white-board
-
-Either draw here or go to [[https://awwapp.com/b/u4r84anbireo8/]]
-#+BEGIN_EXPORT html
-<iframe width="100%" height="500px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
-#+END_EXPORT
-**
-** Let's chit-chat with Python
 # #+END_EXPORT
-Earlier I told you we could write letters to python, what I did not tell you is that we can chat with our super hero too.
-Here are some sentences/command that you can send to Python when you chat with him.
-Try those sentences, and if you want make your own sentences!
-#+REVEAL: split
-#+BEGIN_SRC python
-name = "Jason"
-print(name)
 
-# A variable name can contain letters, numbers, or _
-# but can't start with a number
+# ** Let me show you how to write a letter to python now
+# ** Let me show you how to write a letter to python now
+# #+ATTR_REVEAL: :frag (appear)
+# - I will now show you a special type of video:
+#     #+ATTR_REVEAL: :frag (appear)
+#   - you will see me write a letter to Python
+#   - you can interrupt or pause the video any time
+#   - once you pause the video you can type code yourself
+#     Let me show you!
+# #+REVEAL: split
 
-# There are 5 data types Numbers, Strings, List, Tuple, Dictionary
-# You can store any of them in the same variable
+# The tool looks like that.
+# Let's access it by going directly to the URL page: [[https://scrimba.com/c/cybQ7rcL]]
+# #+BEGIN_EXPORT html
 
-name = 15
-print(name)
-# The arithmetic operators +, -, *, /, %, **, //
-print("5 + 2 =", 5+2)
-print("5 - 2 =", 5-2)
-print("5 * 2 =", 5*2)
-# A string is a string of characters surrounded by " or '
-quote = "Always remember your unique,"
-multi_line_quote = ''' just like everyone else" '''
-print(quote + multi_line_quote)
-# LISTS -------------
-# A list allows you to create a list of values and manipulate them
-# Each value has an index with the first one starting at 0
-grocery_list = ['Juice', 'Tomatoes', 'Potatoes', 'Bananas']
-print('The first item is', grocery_list[1])
-# You can change the value stored in a list box
-grocery_list[0] = "Green Juice"
-print(grocery_list)
-#+END_SRC
+# <iframe width="100%" height="650px" src="https://scrimba.com/c/cybQ7rcL"></iframe>
+# #+END_EXPORT
 
-#+REVEAL: split
-#+BEGIN_EXPORT html
+# Check out this video where I am showing you how to use this new teaching tool.
 
-<iframe src="https://trinket.io/embed/console/13c197b5a3" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-#+END_EXPORT
 
-** Let me show you how to write a letter to python now
-** Let me show you how to write a letter to python now
-#+ATTR_REVEAL: :frag (appear)
-- I will now show you a special type of video:
-    #+ATTR_REVEAL: :frag (appear)
-  - you will see me write a letter to Python
-  - you can interrupt or pause the video any time
-  - once you pause the video you can type code yourself
-    Let me show you!
-#+REVEAL: split
-
-The tool looks like that.
-Let's access it by going directly to the URL page: [[https://scrimba.com/c/cybQ7rcL]]
-#+BEGIN_EXPORT html
-
-<iframe width="100%" height="650px" src="https://scrimba.com/c/cybQ7rcL"></iframe>
-#+END_EXPORT
-
-Check out this video where I am showing you how to use this new teaching tool.
-* next lesson ...
-** Short video introducing today's class
-to be announced soon
+* lesson 9 ...
+** Today's class
+- video here: [[https://www.loom.com/share/9d60cf2f978247749031c34d43e24829][https://www.loom.com/share/9d60cf2f978247749031c34d43e24829]]
+- always go to our jit.si room [[https://meet.jit.si/jasonchengyu][https://meet.jit.si/jasonchengyu]]
+- start your visual studio software
+- connect your headset and mic
 ** Lesson white-board
-
+As usual we have a whiteboard, go to page 9 or the whiteboard
 Either draw here or go to [[https://awwapp.com/b/u4r84anbireo8/]]
 #+BEGIN_EXPORT html
 <iframe width="100%" height="500px" src="https://awwapp.com/b/u4r84anbireo8/"></iframe>
 #+END_EXPORT
+
+
 ** Let's chit-chat with Python
+You want to chat with Python? Do it here!
 #+BEGIN_EXPORT html
 <iframe src="https://trinket.io/embed/console/13c197b5a3" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 #+END_EXPORT
 
 ** Writing letter to python
+If you want to write letter to python here!
 #+BEGIN_EXPORT html
 
 <iframe src="https://trinket.io/embed/python3/5c78a83738" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #+END_EXPORT
+** 填空
+insert the missing part of the code below to output "Hello World":
+_____("Hello world")
+Restaurants must be able to STORE food & PROCESS/COOK it.
+A storage space full of food is not a restaurant.
+A cook and his knives alone is not a restaurant.
+A skilled cook with access to food storage? Now we are talking!
+Essentially a computer is a machine that can both S______ and PRO____ data.
+Do you think that a smart phone is a computer? do you think a Huawei smart watch is a computer?
+You and me are human, we use human language. Computers are machines, they use M______ language.
+Machine language is adapted to human, so we need super-heros to help us talk to computer.
+ #+REVEAL: split
+- Those super-heroes are : C, C#, C++, Java, Python, Java-script etc...
+- You can call those super-heroes and invite them onto your computer
+- Provided we speak their language we can ask those super-heroes anything!
+** data types review (review)
+Types of data that Python uses:
+  - boolean
+  - string (字符串）
+  - integer整数
+  - float 浮点数
+  - list列表
+  - dictionaries
+Here are some datas, tell me their types:
+
+ #+REVEAL: split
+- "hello"
+- 2
+- 2.2
+- 1980
+- 'hello'
+- [1 ,2, 3, 45]
+- """my name is laurent"""
+- "2+2"
+- '1 + 1 ='
+
+** Creating variables (review)
+We talked about variables already. I said that variables are like labeled/named boxes that contain data.
+check the code below, and guess what: python will do when it read it line by line:
+#+BEGIN_SRC python
+jason_age = 10
+jason_best_friend = "Milo"
+jason_birth_year = 2020 - jason_age
+print(jason_age)
+print(jason_best_friend)
+print(jason_birth_year)
+#+END_SRC
+** Ex 1: copy the code above:
+- let's try to paste it into the letter area
+- let's try to place it into the chitchat area
+
+
+** Use variables as much as you can (review)
+Do you think the code below is correct?
+- take it into your letter to Python and run it!
+- How can you improve it? (tip: use a variable )
+#+BEGIN_SRC python
+print( "Hello World, my name is Jason and I am coder")
+print("It was a pleasure to meet you, see you soon")
+#+END_SRC
+
+** Vocabulary (review)
+We reviewed lesson 2:
+|-------------------------+--------------------------|
+| python 英雄             | computer 电脑            |
+| Store 存储              | Process 处理             |
+| ML 机器语言             | Jason 编程人员           |
+| Envelope 信封           | Letter (信封里的信)      |
+| StandardInput 标准输入  | python's left hand       |
+| python's right hand     | Standard Output 标准输出 |
+| Standard Error 标准错误 | print/say(显示)          |
+| return(返回)            |                          |
+|-------------------------+--------------------------|
+** Play with Visual Studio
