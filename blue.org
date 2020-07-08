@@ -1146,7 +1146,7 @@ We reviewed lesson 2:
 
 * lesson 10
 ** Today's class
-- video here: [[https://www.loom.com/share/9d60cf2f978247749031c34d43e24829][https://www.loom.com/share/9d60cf2f978247749031c34d43e24829]]
+- video here: https://www.loom.com/share/44854a7d183a414bac4b7882622d04e2
 - always go to our jit.si room [[https://meet.jit.si/jasonchengyu][https://meet.jit.si/jasonchengyu]]
 - start your visual studio software
 - connect your headset and mic
