@@ -1,4 +1,4 @@
-#+TITLE: Python for early children
+#+TITLE: Python for little geniuses :)
 
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.0
 
