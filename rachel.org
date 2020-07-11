@@ -1,4 +1,4 @@
-#+TITLE: Jason Python Class
+#+TITLE: Python for early children
 
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.0
 
@@ -11,10 +11,10 @@
 #+REVEAL_THEME: moon
 # ./assets/stars.jpg
 #+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg
-#+Subtitle: Sliding presentation
+#+Subtitle: Getting started
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
-#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/blue.html
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/rachel/index.html
 # * Our First lesson
 # ** Proper set-up before the class
 #    :PROPERTIES:
@@ -1619,21 +1619,14 @@
 
 
 * Lesson 1
-Good job Jason!
-You took your first step into coding, you have successfully completed level 1!
-Now let's keep walking!
+Welcome to Python 101, and congratulations on learning coding that early in life!
 #+BEGIN_EXPORT html
 <iframe src="https://giphy.com/embed/11ISwbgCxEzMyY" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #+END_EXPORT
 
-** Today's class
-- today's lesson https://www.loom.com/share/ee8eea38aeb34ebe8222776d595c4ce7
-- always go to our jit.si room [[https://meet.jit.si/jasonchengyu][https://meet.jit.si/jasonchengyu]]
-- start your visual studio software
-- connect your headset and mic
+
 ** White-board 白板区
-As usual we have a whiteboard, go to page 9 or the whiteboard
-Either draw here or go to [[https://awwapp.com/b/u4r84anbireo8/]]
+
 #+BEGIN_EXPORT html
 <iframe width="100%" height="500px" src="https://awwapp.com/b/u4r84anbireo8/" allowfullscreen></iframe>
 #+END_EXPORT
@@ -1650,9 +1643,7 @@ It is important that you pronounce those words properly (你的发音提高的�
 
 
  #+REVEAL: split
- A computer is a machine that can STORE and PROCESS data.
- Python basic data types are: booleans, strings, integers, floats, lists and dictionaries.
- Envelope, letter, standard input, standard output, standard error, machine language, natural language etc
+Coding with Python is just like learning english, pronunciation is crucially important!
 
 #+BEGIN_EXPORT html
 
@@ -2055,11 +2046,6 @@ function showButtons(style) {
 
 
 #+END_EXPORT
-** 填空
-insert the missing part of the code below to output "Hello World":
-_____("Hello world")
-Restaurants must be able to STORE food & PROCESS/COOK it.
-A storage space full of food is not a restaurant.
 
 ** Chit-chat 聊天区
 You want to chat with Python? Do it here!
@@ -2074,4 +2060,3 @@ If you want to write letter to python here!
 <iframe src="https://trinket.io/embed/python3/5c78a83738" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 #+END_EXPORT
-** Let's code together live with Visual Studio
