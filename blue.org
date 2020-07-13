@@ -1618,10 +1618,8 @@
 
 
 
-* Lesson 1
-Good job Jason!
-You took your first step into coding, you have successfully completed level 1!
-Now let's keep walking!
+* Lesson 2
+Introduction to objects
 #+BEGIN_EXPORT html
 <iframe src="https://giphy.com/embed/11ISwbgCxEzMyY" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #+END_EXPORT
