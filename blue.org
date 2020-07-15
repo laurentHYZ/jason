@@ -1678,7 +1678,7 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 
 ** Differences between English and Python English
 
-*** Giving a command! Come here!
+*** Giving a command! Come here! come(here)
 #+BEGIN_EXPORT html
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l0HU9PRr9qZLZrjKU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #+END_EXPORT
@@ -1695,7 +1695,7 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 | say "hi"!        | say("hi")         |
 
 
-*** The panda's ball!
+*** The panda's ball! panda.ball
 #+BEGIN_EXPORT html
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/39hoXKE2isn6nrwKos" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
