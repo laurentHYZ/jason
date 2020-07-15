@@ -14,7 +14,7 @@
 #+Subtitle: Getting started
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
-#+REVEAL_TALK_URL: https://laurenthyz.github.io/rachel/index.html
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/rachel.html
 #
 # ** Let's code together live with Visual Studio
 
