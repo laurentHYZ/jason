@@ -44,10 +44,10 @@
 <li><a href="#/slide-1-1-3">1.1.3. Simple sentence pattern: Subject+Verb+Complement</a></li>
 </ul>
 </li>
-<li><a href="#/slide-1-2">1.2. Differences between English and Python English</a>
+<li><a href="#/slide-1-2">1.2. Differences between English and Python English:</a>
 <ul>
 <li><a href="#/slide-1-2-1">1.2.1. Giving command: come(here) come here!</a></li>
-<li><a href="#/slide-1-2-2">1.2.2. The panda&rsquo;s ball pand.ball</a></li>
+<li><a href="#/slide-1-2-2">1.2.2. The panda&rsquo;s ball panda.ball</a></li>
 <li><a href="#/slide-1-2-3">1.2.3. Homework</a></li>
 </ul>
 </li>
@@ -73,6 +73,8 @@ Welcome to Python 101, and congratulations on learning coding that early in life
 <section id="slide-1-1">
 <h3 id="1-1"><span class="section-number-3">1.1</span> Python and other foreign languages:&#x2026;</h3>
 <div style="width:100%;height:0;padding-bottom:42%;position:relative;"><iframe src="https://giphy.com/embed/uNE1fngZuYhIQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+
 </section>
 <section id="slide-1-1-1">
 <h4 id="1-1-1"><span class="section-number-4">1.1.1</span> Full stops “.” and “。”</h4>
@@ -145,9 +147,18 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 
 </section>
 <section id="slide-1-2">
-<h3 id="1-2"><span class="section-number-3">1.2</span> Differences between English and Python English</h3>
-<div class="outline-text-3" id="text-1-2">
-</div>
+<h3 id="1-2"><span class="section-number-3">1.2</span> Differences between English and Python English:</h3>
+<p>
+Here we will see:
+</p>
+<ul>
+<li>how to express command/order in Python English (i.e. how to say: come! jump! etc)</li>
+<li>how to express attribution (i.e. &ldquo;Matoom&rsquo;s sister&rdquo;, &ldquo;Jasmine&rsquo;s father&rdquo;, &ldquo;the color of the panda&rsquo;s ball&rdquo;)</li>
+
+</ul>
+<p>
+Those 2 notions will help us understand how we can use Python objects, i.e. how we can access their attributes and how we can activate their expected behaviors (It is not a problem if what you just read does not make immediate sense right now).
+</p>
 </section>
 <section id="slide-1-2-1">
 <h4 id="1-2-1"><span class="section-number-4">1.2.1</span> Giving command: come(here) come here!</h4>
@@ -156,6 +167,12 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 
 </section>
 <section>
+<p>
+In English we use the exclamation point to indicate we want something done/executed.
+Python English is similar, but by convention Python uses parentheses/parens/括号 to indicate imperative (命令式）).
+Look at the table below and see how complements are inserted between parens whenever complements are used.
+</p>
+
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -206,9 +223,34 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 
 </section>
 <section id="slide-1-2-2">
-<h4 id="1-2-2"><span class="section-number-4">1.2.2</span> The panda&rsquo;s ball pand.ball</h4>
+<h4 id="1-2-2"><span class="section-number-4">1.2.2</span> The panda&rsquo;s ball panda.ball</h4>
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/39hoXKE2isn6nrwKos" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+</section>
+<section>
+<p>
+Look at the python sentence:
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-python">panda.ball
+</pre>
+</div>
+<p>
+We say that python uses &ldquo;.&rdquo; notation (pronounce &ldquo;dot notation&rdquo;) to indicate the relationship between the panda and the ball: there is a panda, and it has a ball that belongs to him.
+In English I can say that I know Matoom&rsquo;s mother, in python English I would say that I know matoom.mother .
+Please guess what the following item mean:
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-python">car.color
+matoom.sister
+matoom.sister.name
+matoom.mother.age
+panda.ball.color
+</pre>
+</div>
 
 </section>
 <section>

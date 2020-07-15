@@ -28,6 +28,8 @@ Welcome to Python 101, and congratulations on learning coding that early in life
 <div style="width:100%;height:0;padding-bottom:42%;position:relative;"><iframe src="https://giphy.com/embed/uNE1fngZuYhIQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 #+END_EXPORT
+
+
 ***  Full stops “.” and “。”
 In English and spanish a normal sentence ends with a full stop “.”,  while in Chinese and Japanese we use “。”
 #+BEGIN_QUOTE
@@ -69,8 +71,11 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 #+END_QUOTE
 
 
-** Differences between English and Python English
-
+** Differences between English and Python English:
+Here we will see:
+- how to express command/order in Python English (i.e. how to say: come! jump! etc)
+- how to express attribution (i.e. "Matoom's sister", "Jasmine's father", "the color of the panda's ball")
+Those 2 notions will help us understand how we can use Python objects, i.e. how we can access their attributes and how we can activate their expected behaviors (It is not a problem if what you just read does not make immediate sense right now).
 *** Giving command: come(here) come here!
 #+BEGIN_EXPORT html
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l0HU9PRr9qZLZrjKU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -78,6 +83,10 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 
 
  #+REVEAL: split
+In English we use the exclamation point to indicate we want something done/executed.
+Python English is similar, but by convention Python uses parentheses/parens/括号 to indicate imperative (命令式）).
+Look at the table below and see how complements are inserted between parens whenever complements are used.
+
 | English          | Python English    |
 |------------------+-------------------|
 | come!            | come()            |
@@ -88,11 +97,27 @@ In Japanese the ordering is different, it is: complement + subject + verb ! How 
 | say "hi"!        | say("hi")         |
 
 
-*** The panda's ball pand.ball
+*** The panda's ball panda.ball
 #+BEGIN_EXPORT html
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/39hoXKE2isn6nrwKos" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 #+END_EXPORT
+
+#+REVEAL: split
+Look at the python sentence:
+#+BEGIN_SRC python
+panda.ball
+#+END_SRC
+We say that python uses "." notation (pronounce "dot notation") to indicate the relationship between the panda and the ball: there is a panda, and it has a ball that belongs to him.
+In English I can say that I know Matoom's mother, in python English I would say that I know matoom.mother .
+Please guess what the following item mean:
+#+BEGIN_SRC python
+car.color
+matoom.sister
+matoom.sister.name
+matoom.mother.age
+panda.ball.color
+#+END_SRC
 
  #+REVEAL: split
 | English                    | Python English  |
