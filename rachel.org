@@ -1,4 +1,4 @@
-#+TITLE: Python for early children
+#+TITLE: Python for little geniuses :)
 
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.0
 
@@ -18,14 +18,115 @@
 #
 # ** Let's code together live with Visual Studio
 
-
-
 * Lesson 1
 Welcome to Python 101, and congratulations on learning coding that early in life!
 #+BEGIN_EXPORT html
 <iframe src="https://giphy.com/embed/11ISwbgCxEzMyY" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #+END_EXPORT
+** Python and other foreign languages:...
+    #+BEGIN_EXPORT html
+<div style="width:100%;height:0;padding-bottom:42%;position:relative;"><iframe src="https://giphy.com/embed/uNE1fngZuYhIQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
+#+END_EXPORT
+***  Full stops “.” and “。”
+In English and spanish a normal sentence ends with a full stop “.”,  while in Chinese and Japanese we use “。”
+#+BEGIN_QUOTE
+- 👦 💘 🍔 .
+- He likes burger.
+- 他喜欢汉堡包。
+
+#+END_QUOTE
+
+
+*** Question mark “?”
+In English, Chinese and Japanese we use “?” in order to indicate a question:
+
+#+BEGIN_QUOTE
+- 👦 💘 🍔 ?
+- He likes burger?
+- 他喜欢汉堡包吗？
+
+#+END_QUOTE
+
+
+Well in Spanish we use 2 “?” to indicate a question:
+#+BEGIN_QUOTE
+- ¿ 👦 💘 🍔 ?
+#+END_QUOTE
+
+
+*** Simple sentence pattern: Subject+Verb+Complement
+In English, Chinese and Spanish follow a simple Subject+Verb+Object pattern.
+#+BEGIN_QUOTE
+- 👦 💘 🍔 .
+- He likes burger.
+- 他喜欢汉堡包。
+#+END_QUOTE
+
+In Japanese the ordering is different, it is: complement + subject + verb ! How interesting!
+#+BEGIN_QUOTE
+- 日语：🍔 + 👦 + 💘.
+#+END_QUOTE
+
+
+** Differences between English and Python English
+
+*** Giving a command! Come here!
+#+BEGIN_EXPORT html
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l0HU9PRr9qZLZrjKU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+#+END_EXPORT
+
+
+ #+REVEAL: split
+| English          | Python English    |
+|------------------+-------------------|
+| come!            | come()            |
+| run!             | run()             |
+| eat your plate!  | eat(your__plate)  |
+| eat your pastas! | eat(your__pastas) |
+| say hi!          | say(hi)           |
+| say "hi"!        | say("hi")         |
+
+
+*** The panda's ball!
+#+BEGIN_EXPORT html
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/39hoXKE2isn6nrwKos" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+#+END_EXPORT
+
+ #+REVEAL: split
+| English                    | Python English  |
+|----------------------------+-----------------|
+| panda's ball               | panda.ball      |
+| jason's father             | jason.father    |
+| matoom's bike              | matoom.bike     |
+| the bike of matoom         | matoom.bike     |
+| the bike of jason's father | matoom.dad.bike |
+|                            |                 |
+
+*** Homework
+Please fill in the table below.
+| ENGLISH              | PYTHON ENGLISH              |
+| run!                 |                             |
+|                      | jump()                      |
+| walk slowly!         | walk(slowly)                |
+| walk faster!         | walker(faster)              |
+| come!                |                             |
+|                      | write()                     |
+|                      | write("hello")              |
+| say "hi!"            |                             |
+| say "thank you Dad!" |                             |
+|                      | say("pleased to meet you.") |
+| jasmine's bike       |                             |
+| the bike of Jasmine  |                             |
+| the dad of Matoom    |                             |
+|                      | jason.mother                |
+|                      | mike.age                    |
+| the age of jason     |                             |
+|                      | mike.age = 11               |
+|                      | jason.mother.age            |
+|                      | jason.mother.age = 30       |
+|                      |                             |
 
 ** White-board 白板区
 
