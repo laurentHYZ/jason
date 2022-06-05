@@ -1,0 +1,28 @@
+#+TITLE: Test
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@4.0.0
+
+#+REVEAL_PLUGINS: ( chalkboard menu )
+#+REVEAL_EXTERNAL_PLUGIN: ( chalkboard menu )
+
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+ATTR_ORG: :width 200/250/300/400/500/600
+#+ATTR_LATEX: :width 2.0in
+#+ATTR_HTML: :width 200/250/300/400/500/600px
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><p>%A %a</p><p><a href="%u">%u</a></p>
+#+REVEAL_THEME: moon
+# ./assets/stars.jpg
+#+REVEAL_TITLE_SLIDE_BACKGROUND: https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg
+#+Subtitle: Sliding presentation
+#+Author: laurent
+#+Email: laurent_pinson@hotmail.com
+#+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/blue.html
+
+
+
+* hello
+** my
+** friend
+#+BEGIN_SRC shell
+ls
+#+END_SRC
+Inline code src_python[:exports code]{for item in range(10):}

@@ -1,6 +1,10 @@
 #+TITLE: Test
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@4.0.0
+
+#+REVEAL_PLUGINS: ( chalkboard menu )
 # #+REVEAL_EXTERNAL_PLUGIN: ( chalkboard menu )
+
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard plugin/chalkboard/plugin.js
 # #+REVEAL_EXTRA_CSS: ./mystyle.css
 # #+ATTR_ORG: :width 200/250/300/400/500/600
 # #+ATTR_LATEX: :width 2.0in
@@ -13,3 +17,13 @@
 #+Author: laurent
 #+Email: laurent_pinson@hotmail.com
 #+REVEAL_TALK_URL: https://laurenthyz.github.io/jason/blue.html
+* title 2
+
+#+BEGIN_SRC shell
+ls
+#+END_SRC
+
+#+BEGIN_SRC python
+for item in range(11):
+    print(item)
+#+END_SRC

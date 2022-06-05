@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.8.9/brython.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.8.9/brython_stdlib.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>3D Walker</title>
+
+<script type="text/python">
+import math
+from browser import document as doc
+from browser import timer, window, alert
+
+
+arena = [
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 0, 1],
+    [1, 0, 1, 0, 0, 0, 0, 1, 0, 1],
+    [1, 0, 0, 0, 0, 1, 0, 1, 0, 1],
+    [1, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 0, 0, 1, 0, 1, 1, 1, 0, 1],
+    [1, 1, 0, 1, 0, 0, 0, 1, 0, 1],
+    [1, 0, 0, 1, 0, 1, 0, 0, 0, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+]
+
+def mouse_move(e):
+    global mpos
+    if mpos == None:
+        return
+    x, y = mpos
+    mpos = [e.x, e.y]
+
+def initUnderMap():
+    underMap = doc["underMap"].getContext("2d")
+    underMap.fillStyle = "#fff"
+    underMap.fillRect(0, 0, 200, 200)
+    underMap.fillStyle = "#444"
+    for i in range(len(arena)):
+        for j in range(len(arena[i])):
+            if arena[i][j]:
+                underMap.fillRect(i * 8, j * 8, 8, 8)
+
+</script>
+  </head>
+<body onLoad="brython()">
+<div id="benjoffe">
+</div>
+</body></html>

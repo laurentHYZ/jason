@@ -2,30 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<title>Jason Python Class 0/10</title>
 <meta name="author" content="laurent"/>
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="https://revealjs.com/css/reveal.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/reveal.css"/>
 
-<link rel="stylesheet" href="https://revealjs.com/css/theme/moon.css" id="theme"/>
-
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://revealjs.com/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/theme/moon.css" id="theme"/>
 </head>
 <body>
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide" data-background="https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg">
-<h2></h2><h3>Touching Base and setting up</h3><p> laurent</p><p><a href="https://laurenthyz.github.io/jason/lesson0.html%20https://laurenthyz.github.io/jason/lesson0notoc.html">https://laurenthyz.github.io/jason/lesson0.html%20https://laurenthyz.github.io/jason/lesson0notoc.html</a></p>
+<h2>Jason Python Class 0/10</h2><h3>Touching Base and setting</h3><p> laurent</p><p><a href="https://laurenthyz.github.io/jason/lesson0.html">https://laurenthyz.github.io/jason/lesson0.html</a></p>
 </section>
 <section>
 <section id="slide-1">
@@ -195,8 +185,11 @@ Please redraw your Big Picture from scratch
 </section>
 </div>
 </div>
-<script src="https://revealjs.com/lib/js/head.min.js"></script>
-<script src="https://revealjs.com/js/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/zoom/zoom.js"></script>
 <script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
@@ -216,17 +209,15 @@ pdfSeparateFragments: true,
 
 overview: true,
 
-theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transition: 'convex',
 transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
 
 // Optional libraries used to extend reveal.js
 dependencies: [
- { src: 'https://revealjs.com/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://revealjs.com/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://revealjs.com/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://revealjs.com/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }]
+]
 
 });
 </script>

@@ -1,69 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<title>Test</title>
-<meta name="author" content="laurent"/>
-<style type="text/css">
-.underline { text-decoration: underline; }
-</style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/dist/reveal.css"/>
+<!doctype html>
+<html>
+    <head>
+        <title>Audio Recorder</title>
+        <link rel="icon" type="image/png" href="https://stephino.github.io/dist/favicon.png" />
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/dist/theme/black.css" id="theme"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="https://stephino.github.io/dist/recorder.js"></script>
+        <script>
+            jQuery(document).ready(function () {
+                var $ = jQuery;
+                var myRecorder = {
+                    objects: {
+                        context: null,
+                        stream: null,
+                        recorder: null
+                    },
+                    init: function () {
+                        if (null === myRecorder.objects.context) {
+                            myRecorder.objects.context = new (
+                                    window.AudioContext || window.webkitAudioContext
+                                    );
+                        }
+                    },
+                    start: function () {
+                        var options = {audio: true, video: false};
+                        navigator.mediaDevices.getUserMedia(options).then(function (stream) {
+                            myRecorder.objects.stream = stream;
+                            myRecorder.objects.recorder = new Recorder(
+                                    myRecorder.objects.context.createMediaStreamSource(stream),
+                                    {numChannels: 1}
+                            );
+                            myRecorder.objects.recorder.record();
+                        }).catch(function (err) {});
+                    },
+                    stop: function (listObject) {
+                        if (null !== myRecorder.objects.stream) {
+                            myRecorder.objects.stream.getAudioTracks()[0].stop();
+                        }
+                        if (null !== myRecorder.objects.recorder) {
+                            myRecorder.objects.recorder.stop();
 
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
-</head>
-<body>
-<div class="reveal">
-<div class="slides">
-<section id="sec-title-slide" data-background="https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg">
-<h1 class="title">Test</h1><h2 class="author">laurent</h2><p class="date">Created: 2020-07-02 Thu 12:02</p>
-</section>
-</div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/lib/js/head.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/dist/reveal.js"></script>
-<script>
-// Full list of configuration options available here:
-// https://github.com/hakimel/reveal.js#configuration
-Reveal.initialize({
+                            // Validate object
+                            if (null !== listObject
+                                    && 'object' === typeof listObject
+                                    && listObject.length > 0) {
+                                // Export the WAV file
+                                myRecorder.objects.recorder.exportWAV(function (blob) {
+                                    var url = (window.URL || window.webkitURL)
+                                            .createObjectURL(blob);
 
-controls: true,
-progress: true,
-history: false,
-center: true,
-slideNumber: 'c',
-rollingLinks: false,
-keyboard: true,
-mouseWheel: false,
-fragmentInURL: false,
-hashOneBasedIndex: false,
-pdfSeparateFragments: true,
+                                    // Prepare the playback
+                                    var audioObject = $('<audio controls></audio>')
+                                            .attr('src', url);
 
-overview: true,
+                                    // Prepare the download link
+                                    var downloadObject = $('<a>&#9660;</a>')
+                                            .attr('href', url)
+                                            .attr('download', new Date().toUTCString() + '.wav');
 
-theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
-transitionSpeed: 'default',
+                                    // Wrap everything in a row
+                                    var holderObject = $('<div class="row"></div>')
+                                            .append(audioObject)
+                                            .append(downloadObject);
 
-// Optional libraries used to extend reveal.js
-dependencies: [
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@4.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }]
+                                    // Append to the list
+                                    listObject.append(holderObject);
+                                });
+                            }
+                        }
+                    }
+                };
 
-});
-</script>
-</body>
+                // Prepare the recordings list
+                var listObject = $('[data-role="recordings"]');
+
+                // Prepare the record button
+                $('[data-role="controls"] > button').click(function () {
+                    // Initialize the recorder
+                    myRecorder.init();
+
+                    // Get the button state
+                    var buttonState = !!$(this).attr('data-recording');
+
+                    // Toggle
+                    if (!buttonState) {
+                        $(this).attr('data-recording', 'true');
+                        myRecorder.start();
+                    } else {
+                        $(this).attr('data-recording', '');
+                        myRecorder.stop(listObject);
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="holder">
+            <div data-role="controls">
+                <button>Record</button>
+            </div>
+            <div data-role="recordings"></div>
+        </div>
+    </body>
 </html>

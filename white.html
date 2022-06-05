@@ -2,30 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<title>Jason Python Class</title>
 <meta name="author" content="laurent"/>
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="https://revealjs.com/css/reveal.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/reveal.css"/>
 
-<link rel="stylesheet" href="https://revealjs.com/css/theme/moon.css" id="theme"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/theme/moon.css" id="theme"/>
 
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://revealjs.com/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
+<link rel="stylesheet" href="./mystyle.css"/>
 </head>
 <body>
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide" data-background="https://images.freeimages.com/images/large-previews/f0d/night-sky-1401615.jpg">
-<h2></h2><h3>Static old-school presentation</h3><p> laurent</p><p><a href="https://laurenthyz.github.io/jason/white.html">https://laurenthyz.github.io/jason/white.html</a></p>
+<h2>Jason Python Class</h2><h3>Static old-school presentation</h3><p> laurent</p><p><a href="https://laurenthyz.github.io/jason/white.html">https://laurenthyz.github.io/jason/white.html</a></p>
 </section>
 <section>
 <section id="slide-1">
@@ -70,7 +62,7 @@ Through 核桃编程Jason focused mainly on Scratch coding coding ( and that&rsq
 </section>
 <section>
 
-<div class="figure">
+<div id="orgbc9df02" class="figure">
 <p><img src="https://img.hetao101.com/assets/pc/landing3.0/jieduan.png" alt="jieduan.png" />
 </p>
 </div></li>
@@ -269,7 +261,7 @@ I can know that Jason has studied some Scratch. Hopefully he is able to take wha
 </section>
 <section>
 
-<div class="figure">
+<div id="org2df0076" class="figure">
 <p><img src="./assets/scratchtopython.png" alt="scratchtopython.png" />
 </p>
 </div>
@@ -400,7 +392,7 @@ Python中单行注释以 # 开头，例如：
 </p>
 <div class="org-src-container">
 
-<pre  class="src src-python"><span style="color: #6272a4;"># </span><span style="color: #6272a4;">the following code is a print statement</span>
+<pre class="src src-python"><span style="color: #6272a4;"># </span><span style="color: #6272a4;">the following code is a print statement</span>
 <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"Hello World, my name is Jason!"</span>)
 </pre>
 </div>
@@ -413,7 +405,7 @@ Python中单行注释以 # 开头，例如：
 </p>
 <div class="org-src-container">
 
-<pre  class="src src-python"><span style="color: #8995ba;">'''</span>
+<pre class="src src-python"><span style="color: #8995ba;">'''</span>
 <span style="color: #8995ba;">The code below is a simple print statement.</span>
 <span style="color: #8995ba;">I am giving python a string of characters,</span>
 <span style="color: #8995ba;">and I ask python to send it (to print it, to display it)</span>
@@ -432,9 +424,9 @@ check the code below, and guess what python will do when it read it line by line
 </p>
 <div class="org-src-container">
 
-<pre  class="src src-python"><span style="color: #f8f8f2;">jason_age</span> = <span style="color: #ff5555; font-weight: bold;">10</span>
-<span style="color: #f8f8f2;">jason_best_friend</span> = <span style="color: #f1fa8c;">"Milo"</span>
-<span style="color: #f8f8f2;">jason_birth_year</span> = <span style="color: #ff5555; font-weight: bold;">2020</span> - jason_age
+<pre class="src src-python"><span style="color: #ffc9e8;">jason_age</span> = <span style="color: #bd93f9; font-weight: bold;">10</span>
+<span style="color: #ffc9e8;">jason_best_friend</span> = <span style="color: #f1fa8c;">"Milo"</span>
+<span style="color: #ffc9e8;">jason_birth_year</span> = <span style="color: #bd93f9; font-weight: bold;">2020</span> - jason_age
 <span style="color: #ff79c6;">print</span>(jason_age)
 <span style="color: #ff79c6;">print</span>(jason_best_friend)
 <span style="color: #ff79c6;">print</span>(jason_birth_year)
@@ -449,8 +441,8 @@ Although it is correct, each time we can put data in a box and give that box a n
 </p>
 <div class="org-src-container">
 
-<pre  class="src src-python"><span style="color: #f8f8f2;">hello</span> = <span style="color: #f1fa8c;">"Hello World, my name is Jason and I am coder"</span>.
-<span style="color: #f8f8f2;">byebye</span> = <span style="color: #f1fa8c;">"It was a pleasure to meet you, see you soon"</span>
+<pre class="src src-python"><span style="color: #ffc9e8;">hello</span> = <span style="color: #f1fa8c;">"Hello World, my name is Jason and I am coder"</span>.
+<span style="color: #ffc9e8;">byebye</span> = <span style="color: #f1fa8c;">"It was a pleasure to meet you, see you soon"</span>
 <span style="color: #ff79c6;">print</span>(hello)
 <span style="color: #ff79c6;">print</span>(byebye)
 </pre>
@@ -475,7 +467,7 @@ We will solve all those mysteries but for now please read the code below outloud
 </section>
 <section>
 
-<div class="figure">
+<div id="orgbb9943a" class="figure">
 <p><img src="./assets/restaurant.png" alt="restaurant.png" />
 </p>
 </div>
@@ -918,12 +910,12 @@ Let me show you an example where you see if, elif and else applied.
 <section>
 <div class="org-src-container">
 
-<pre  class="src src-python"><span style="color: #f8f8f2;">num</span> = <span style="color: #ff5555; font-weight: bold;">1122</span>
-<span style="color: #ff79c6;">if</span> <span style="color: #ff5555; font-weight: bold;">9</span> &lt; num &lt; <span style="color: #ff5555; font-weight: bold;">99</span>:
+<pre class="src src-python"><span style="color: #ffc9e8;">num</span> = <span style="color: #bd93f9; font-weight: bold;">1122</span>
+<span style="color: #ff79c6;">if</span> <span style="color: #bd93f9; font-weight: bold;">9</span> &lt; num &lt; <span style="color: #bd93f9; font-weight: bold;">99</span>:
     <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"Two digit number"</span>)
-<span style="color: #ff79c6;">elif</span> <span style="color: #ff5555; font-weight: bold;">99</span> &lt; num &lt; <span style="color: #ff5555; font-weight: bold;">999</span>:
+<span style="color: #ff79c6;">elif</span> <span style="color: #bd93f9; font-weight: bold;">99</span> &lt; num &lt; <span style="color: #bd93f9; font-weight: bold;">999</span>:
     <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"Three digit number"</span>)
-<span style="color: #ff79c6;">elif</span> <span style="color: #ff5555; font-weight: bold;">999</span> &lt; num &lt; <span style="color: #ff5555; font-weight: bold;">9999</span>:
+<span style="color: #ff79c6;">elif</span> <span style="color: #bd93f9; font-weight: bold;">999</span> &lt; num &lt; <span style="color: #bd93f9; font-weight: bold;">9999</span>:
     <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"Four digit number"</span>)
 <span style="color: #ff79c6;">else</span>:
     <span style="color: #ff79c6;">print</span>(<span style="color: #f1fa8c;">"number is &lt;= 9 or &gt;= 9999"</span>)
@@ -936,7 +928,7 @@ You can distinguish the following core structure:
 </p>
 <div class="org-src-container">
 
-<pre  class="src src-python"><span style="color: #ff79c6;">if</span> condition_1:
+<pre class="src src-python"><span style="color: #ff79c6;">if</span> condition_1:
    block_of_code_1
 <span style="color: #ff79c6;">elif</span> condition_2:
    block_of_code_2
@@ -974,8 +966,11 @@ You can distinguish the following core structure:
 </section>
 </div>
 </div>
-<script src="https://revealjs.com/lib/js/head.min.js"></script>
-<script src="https://revealjs.com/js/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/zoom/zoom.js"></script>
 <script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
@@ -995,17 +990,15 @@ pdfSeparateFragments: true,
 
 overview: true,
 
-theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transition: 'convex',
 transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
 
 // Optional libraries used to extend reveal.js
 dependencies: [
- { src: 'https://revealjs.com/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://revealjs.com/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://revealjs.com/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://revealjs.com/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }]
+]
 
 });
 </script>

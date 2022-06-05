@@ -1,0 +1,10 @@
+
+
+
+
+
+
+
+
+<syntaxhighlight lang="shell">ls
+</syntaxhighlight>

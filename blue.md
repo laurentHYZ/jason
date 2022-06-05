@@ -1,280 +1,427 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="author" content="laurent">
-  <title>Test</title>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://revealjs.com/dist/reset.css">
-  <link rel="stylesheet" href="https://revealjs.com/dist/reveal.css">
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-  </style>
-  <link rel="stylesheet" href="https://revealjs.com/dist/theme/black.css" id="theme">
-</head>
-<body>
-  <div class="reveal">
-    <div class="slides">
 
-<section id="title-slide">
-  <h1 class="title">Test</h1>
-  <p class="subtitle">Sliding presentation</p>
-  <p class="author">laurent</p>
-</section>
+# Table of Contents
 
-<section class="slide level1">
+1.  [Lesson 3](#orgd3a876d)
+    1.  [Today&rsquo;s class](#org4356dd8)
+    2.  [Python and other foreign languages:&#x2026;](#orga1382d9)
+        1.  [Full stops “.” and “。”](#org935a4af)
+        2.  [Question mark “?”](#orgde1edb4)
+        3.  [Simple sentence pattern: Subject+Verb+Complement](#orge053fac)
+    3.  [Differences between English and Python English](#org9f5b305)
+        1.  [Giving a command! Come here! come(here)](#orgf0a86e8)
+2.  [Heading](#org683916d)
+        1.  [The panda&rsquo;s ball! panda.ball](#org4e76012)
+        2.  [homework White-board](#org4ce083f)
+        3.  [Homework](#orge1823f9)
+    1.  [White-board 白板区](#org7a32ccb)
+    2.  [Reading area](#orgec9aad0)
+    3.  [填空](#org7cc932a)
+    4.  [Chit-chat 聊天区](#org367410c)
+    5.  [Writing Letter](#org1ffb296)
+    6.  [Let&rsquo;s code together live with Visual Studio](#org9b16735)
+    7.  [Blocks](#orgca578ae)
+    8.  [iframe loca videos](#org044e2b3)
+3.  [testing](#org6e1cef2)
 
 
-</section>
-<section id="lesson-3" class="slide level1">
-<h1>Lesson 3</h1>
+
+<a id="orgd3a876d"></a>
+
+# Lesson 3
+
 <iframe src="https://giphy.com/embed/LmNwrBhejkK9EFP504" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-<h2 id="todays-class">Today's class</h2>
-<p>We will keep working with english to python translation, and we will review the idea of python object.</p>
-<ul>
-<li>always go to our jit.si room <a href="https://meet.jit.si/jasonchengyu"><a href="https://meet.jit.si/jasonchengyu">https://meet.jit.si/jasonchengyu</a></a></li>
-<li>start your visual studio software</li>
-<li>connect your headset and mic</li>
-</ul>
-<h2 id="python-and-other-foreign-languages">Python and other foreign languages:…</h2>
+
+<a id="org4356dd8"></a>
+
+## Today&rsquo;s class
+
+We will keep working with english to python translation, and we will review the idea of python object.
+
+-   always go to our jit.si room [https://meet.jit.si/jasonchengyu](https://meet.jit.si/jasonchengyu)
+-   start your visual studio software
+-   connect your headset and mic
+
+
+<a id="orga1382d9"></a>
+
+## Python and other foreign languages:&#x2026;
+
 <div style="width:100%;height:0;padding-bottom:42%;position:relative;"><iframe src="https://giphy.com/embed/uNE1fngZuYhIQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 
-<h3 id="full-stops-.-and">Full stops “.” and “。”</h3>
-<p>In English and spanish a normal sentence ends with a full stop “.”, while in Chinese and Japanese we use “。”</p>
-<ul>
-<li class="fragment">👦 💘 🍔 .</li>
-<li class="fragment">He likes burger.</li>
-<li class="fragment">他喜欢汉堡包。</li>
-</ul>
-<aside class="notes">
-<p>This is a useful note.</p>
-</aside>
-<h3 id="question-mark">Question mark “?”</h3>
-<p>In English, Chinese and Japanese we use “?” in order to indicate a question:</p>
-<ul>
-<li class="fragment">👦 💘 🍔 ?</li>
-<li class="fragment">He likes burger?</li>
-<li class="fragment">他喜欢汉堡包吗？</li>
-</ul>
-<p>Well in Spanish we use 2 “?” to indicate a question:</p>
-<ul>
-<li class="fragment">¿ 👦 💘 🍔 ?</li>
-</ul>
-<h3 id="simple-sentence-pattern-subjectverbcomplement">Simple sentence pattern: Subject+Verb+Complement</h3>
-<p>In English, Chinese and Spanish follow a simple Subject+Verb+Object pattern.</p>
-<ul>
-<li class="fragment">👦 💘 🍔 .</li>
-<li class="fragment">He likes burger.</li>
-<li class="fragment">他喜欢汉堡包。</li>
-</ul>
-<p>In Japanese the ordering is different, it is: complement + subject + verb ! How interesting!</p>
-<ul>
-<li class="fragment">日语：🍔 + 👦 + 💘.</li>
-</ul>
-<h2 id="differences-between-english-and-python-english">Differences between English and Python English</h2>
-<h3 id="giving-a-command-come-here-comehere">Giving a command! Come here! come(here)</h3>
+<a id="org935a4af"></a>
+
+### Full stops “.” and “。”
+
+In English and spanish a normal sentence ends with a full stop “.”,  while in Chinese and Japanese we use “。”
+
+> -   👦 💘 🍔 .
+> -   He likes burger.
+> -   他喜欢汉堡包。
+
+<div class="notes" id="org0532aa6">
+<p>
+This is a useful note.
+</p>
+
+</div>
+
+
+<a id="orgde1edb4"></a>
+
+### Question mark “?”
+
+In English, Chinese and Japanese we use “?” in order to indicate a question:
+
+> -   👦 💘 🍔 ?
+> -   He likes burger?
+> -   他喜欢汉堡包吗？
+
+Well in Spanish we use 2 “?” to indicate a question:
+
+> -   ¿ 👦 💘 🍔 ?
+
+
+<a id="orge053fac"></a>
+
+### Simple sentence pattern: Subject+Verb+Complement
+
+In English, Chinese and Spanish follow a simple Subject+Verb+Object pattern.
+
+> -   👦 💘 🍔 .
+> -   He likes burger.
+> -   他喜欢汉堡包。
+
+In Japanese the ordering is different, it is: complement + subject + verb ! How interesting!
+
+> -   日语：🍔 + 👦 + 💘.
+
+
+<a id="org9f5b305"></a>
+
+## Differences between English and Python English
+
+
+<a id="orgf0a86e8"></a>
+
+### Giving a command! Come here! come(here)
+
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l0HU9PRr9qZLZrjKU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-<table>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
 <thead>
-<tr class="header">
-<th>English</th>
-<th>Python English</th>
+<tr>
+<th scope="col" class="org-left">English</th>
+<th scope="col" class="org-left">Python English</th>
 </tr>
 </thead>
+
 <tbody>
-<tr class="odd">
-<td>come!</td>
-<td>come()</td>
+<tr>
+<td class="org-left">come!</td>
+<td class="org-left">come()</td>
 </tr>
-<tr class="even">
-<td>run!</td>
-<td>run()</td>
+
+
+<tr>
+<td class="org-left">run!</td>
+<td class="org-left">run()</td>
 </tr>
-<tr class="odd">
-<td>eat your plate!</td>
-<td>eat(your_<sub>plate</sub>)</td>
+
+
+<tr>
+<td class="org-left">eat your plate!</td>
+<td class="org-left">eat(your_<sub>plate</sub>)</td>
 </tr>
-<tr class="even">
-<td>eat your pastas!</td>
-<td>eat(your_<sub>pastas</sub>)</td>
+
+
+<tr>
+<td class="org-left">eat your pastas!</td>
+<td class="org-left">eat(your_<sub>pastas</sub>)</td>
 </tr>
-<tr class="odd">
-<td>say hi!</td>
-<td>say(hi)</td>
+
+
+<tr>
+<td class="org-left">say hi!</td>
+<td class="org-left">say(hi)</td>
 </tr>
-<tr class="even">
-<td>say "hi"!</td>
-<td>say("hi")</td>
+
+
+<tr>
+<td class="org-left">say &ldquo;hi&rdquo;!</td>
+<td class="org-left">say(&ldquo;hi&rdquo;)</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="heading" class="slide level1">
-<h1>Heading</h1>
-<p>Some contents.</p>
-<div class="NOTES">
-<p>Enter speaker notes here.</p>
-<ul>
+
+
+<a id="org683916d"></a>
+
+# Heading
+
+Some contents.
+
+<div class="NOTES" id="org8577307">
+<p>
+Enter speaker notes here.
+</p>
+
+<ul class="org-ul">
 <li>With bullet points
-<ul>
+<ul class="org-ul">
 <li>If necessary</li>
 </ul></li>
 </ul>
+
 </div>
-<h3 id="the-pandas-ball-panda.ball">The panda's ball! panda.ball</h3>
+
+
+<a id="org4e76012"></a>
+
+### The panda&rsquo;s ball! panda.ball
+
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/39hoXKE2isn6nrwKos" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
-<table>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
 <thead>
-<tr class="header">
-<th>English</th>
-<th>Python English</th>
+<tr>
+<th scope="col" class="org-left">English</th>
+<th scope="col" class="org-left">Python English</th>
 </tr>
 </thead>
+
 <tbody>
-<tr class="odd">
-<td>panda's ball</td>
-<td>panda.ball</td>
+<tr>
+<td class="org-left">panda&rsquo;s ball</td>
+<td class="org-left">panda.ball</td>
 </tr>
-<tr class="even">
-<td>jason's father</td>
-<td>jason.father</td>
+
+
+<tr>
+<td class="org-left">jason&rsquo;s father</td>
+<td class="org-left">jason.father</td>
 </tr>
-<tr class="odd">
-<td>matoom's bike</td>
-<td>matoom.bike</td>
+
+
+<tr>
+<td class="org-left">matoom&rsquo;s bike</td>
+<td class="org-left">matoom.bike</td>
 </tr>
-<tr class="even">
-<td>the bike of matoom</td>
-<td>matoom.bike</td>
+
+
+<tr>
+<td class="org-left">the bike of matoom</td>
+<td class="org-left">matoom.bike</td>
 </tr>
-<tr class="odd">
-<td>the bike of jason's father</td>
-<td>matoom.dad.bike</td>
+
+
+<tr>
+<td class="org-left">the bike of jason&rsquo;s father</td>
+<td class="org-left">matoom.dad.bike</td>
 </tr>
-<tr class="even">
-<td></td>
-<td></td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
-<h3 id="homework-white-board">homework White-board</h3>
-<p>Put the whiteboard below fullscreen. If somehow you do not see anything within the whiteboard please try to access it directly: <a href="https://awwapp.com/b/u9x6u2rqnwcv6/">https://awwapp.com/b/u9x6u2rqnwcv6/</a></p>
+
+
+<a id="org4ce083f"></a>
+
+### homework White-board
+
+Put the whiteboard below fullscreen. If somehow you do not see anything within the whiteboard please try to access it directly: <https://awwapp.com/b/u9x6u2rqnwcv6/>
+
 <iframe width="100%" height="500px" src="https://awwapp.com/b/u9x6u2rqnwcv6/" allowfullscreen></iframe>
 
-<h3 id="homework">Homework</h3>
-<p>Please fill in the table below.</p>
-<table>
+
+<a id="orge1823f9"></a>
+
+### Homework
+
+Please fill in the table below.
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
 <tbody>
-<tr class="odd">
-<td>ENGLISH</td>
-<td>PYTHON ENGLISH</td>
+<tr>
+<td class="org-left">ENGLISH</td>
+<td class="org-left">PYTHON ENGLISH</td>
 </tr>
-<tr class="even">
-<td>run!</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">run!</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td>jump()</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">jump()</td>
 </tr>
-<tr class="even">
-<td>walk slowly!</td>
-<td>walk(slowly)</td>
+
+
+<tr>
+<td class="org-left">walk slowly!</td>
+<td class="org-left">walk(slowly)</td>
 </tr>
-<tr class="odd">
-<td>walk faster!</td>
-<td>walker(faster)</td>
+
+
+<tr>
+<td class="org-left">walk faster!</td>
+<td class="org-left">walker(faster)</td>
 </tr>
-<tr class="even">
-<td>come!</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">come!</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td>write()</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">write()</td>
 </tr>
-<tr class="even">
-<td></td>
-<td>write("hello")</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">write(&ldquo;hello&rdquo;)</td>
 </tr>
-<tr class="odd">
-<td>say "hi!"</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">say &ldquo;hi!&rdquo;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="even">
-<td>say "thank you Dad!"</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">say &ldquo;thank you Dad!&rdquo;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td>say("pleased to meet you.")</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">say(&ldquo;pleased to meet you.&rdquo;)</td>
 </tr>
-<tr class="even">
-<td>jasmine's bike</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">jasmine&rsquo;s bike</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="odd">
-<td>the bike of Jasmine</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">the bike of Jasmine</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="even">
-<td>the dad of Matoom</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">the dad of Matoom</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td>jason.mother</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">jason.mother</td>
 </tr>
-<tr class="even">
-<td></td>
-<td>mike.age</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">mike.age</td>
 </tr>
-<tr class="odd">
-<td>the age of jason</td>
-<td></td>
+
+
+<tr>
+<td class="org-left">the age of jason</td>
+<td class="org-left">&#xa0;</td>
 </tr>
-<tr class="even">
-<td></td>
-<td>mike.age = 11</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">mike.age = 11</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td>jason.mother.age</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">jason.mother.age</td>
 </tr>
-<tr class="even">
-<td></td>
-<td>jason.mother.age = 30</td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">jason.mother.age = 30</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td></td>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
-<h2 id="white-board-白板区">White-board 白板区</h2>
-<p>As usual we have a whiteboard, go to page 9 or the whiteboard Either draw here or go to <a href="https://awwapp.com/b/u4r84anbireo8/">https://awwapp.com/b/u4r84anbireo8/</a></p>
+
+
+<a id="org7a32ccb"></a>
+
+## White-board 白板区
+
+As usual we have a whiteboard, go to page 9 or the whiteboard
+Either draw here or go to <https://awwapp.com/b/u4r84anbireo8/>
+
 <iframe width="100%" height="500px" src="https://awwapp.com/b/u4r84anbireo8/" allowfullscreen></iframe>
 
-<h2 id="reading-area">Reading area</h2>
-<p>When we talk about coding we use specific terms (function, data types, boolean, integers etc…). It is important that you pronounce those words properly (你的发音提高的话你的听力也会提高，而上课的时候听力至关重要), so visit this reading area as often as you can!</p>
+
+<a id="orgec9aad0"></a>
+
+## Reading area
+
+When we talk about coding we use specific terms (function, data types, boolean, integers etc&#x2026;).
+It is important that you pronounce those words properly (你的发音提高的话你的听力也会提高，而上课的时候听力至关重要), so visit this reading area as often as you can!
+
 <div class="iframe-container">
 <iframe src="https://giphy.com/embed/2S4djnTiypJZK" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
-<p>A computer is a machine that can STORE and PROCESS data. Python basic data types are: booleans, strings, integers, floats, lists and dictionaries. Envelope, letter, standard input, standard output, standard error, machine language, natural language etc</p>
+A computer is a machine that can STORE and PROCESS data.
+Python basic data types are: booleans, strings, integers, floats, lists and dictionaries.
+Envelope, letter, standard input, standard output, standard error, machine language, natural language etc
+
 
 <!DOCTYPE html>
   <head>
@@ -674,81 +821,67 @@ function showButtons(style) {
   </body>
 
 
+<a id="org7cc932a"></a>
 
-<h2 id="填空">填空</h2>
-<p>insert the missing part of the code below to output "Hello World": ____<sub>("Hello world")</sub> Restaurants must be able to STORE food &amp; PROCESS/COOK it. A storage space full of food is not a restaurant.</p>
-<h2 id="chit-chat-聊天区">Chit-chat 聊天区</h2>
-<p>You want to chat with Python? Do it here!</p>
+## 填空
+
+insert the missing part of the code below to output &ldquo;Hello World&rdquo;:
+\_\_\_\_<sub>(&ldquo;Hello world&rdquo;)</sub>
+Restaurants must be able to STORE food & PROCESS/COOK it.
+A storage space full of food is not a restaurant.
+
+
+<a id="org367410c"></a>
+
+## Chit-chat 聊天区
+
+You want to chat with Python? Do it here!
+
 <iframe src="https://trinket.io/embed/console/13c197b5a3" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-<h2 id="writing-letter">Writing Letter</h2>
-<p>If you want to write letter to python here!</p>
+
+<a id="org1ffb296"></a>
+
+## Writing Letter
+
+If you want to write letter to python here!
+
 
 <iframe src="https://trinket.io/embed/python3/5c78a83738" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-<h2 id="lets-code-together-live-with-visual-studio">Let's code together live with Visual Studio</h2>
-<h2 id="blocks">Blocks</h2>
+<a id="org9b16735"></a>
+
+## Let&rsquo;s code together live with Visual Studio
+
+
+<a id="orgca578ae"></a>
+
+## Blocks
+
 
 <iframe src="https://studio.code.org/sections/ZJYJHS"  width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-<h2 id="iframe-loca-videos">iframe loca videos</h2>
+<a id="org044e2b3"></a>
+
+## iframe loca videos
+
 
 <iframe src="file:///home/laurent/Videos/codingclass/Day1AddRuleContainerEmpty.mp4"  width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-</section>
-<section id="testing" class="slide level1">
-<h1>testing</h1>
-<div class="NOTES">
-<p>Enter speaker notes here.</p>
+<a id="org6e1cef2"></a>
+
+# testing
+
+<div class="NOTES" id="orgc3d8b75">
+<p>
+Enter speaker notes here.
+</p>
+
 </div>
-<p>there is a note, can you make it pop? vb</p>
-</section>
-    </div>
-  </div>
 
-  <script src="https://revealjs.com/dist/reveal.js"></script>
+ there is a note, can you make it pop?
+vb
 
-  // reveal.js plugins
-  <script src="https://revealjs.com/plugin/notes/notes.js"></script>
-  <script src="https://revealjs.com/plugin/search/search.js"></script>
-  <script src="https://revealjs.com/plugin/zoom/zoom.js"></script>
-  <script src="https://revealjs.com/plugin/math/math.js"></script>
-
-  <script>
-
-      // Full list of configuration options available at:
-      // https://revealjs.com/config/
-      Reveal.initialize({
-        // Push each slide change to the browser history
-        history: true,
-        math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
-          config: 'TeX-AMS_HTML-full',
-          tex2jax: {
-            inlineMath: [['\\(','\\)']],
-            displayMath: [['\\[','\\]']],
-            balanceBraces: true,
-            processEscapes: false,
-            processRefs: true,
-            processEnvironments: true,
-            preview: 'TeX',
-            skipTags: ['script','noscript','style','textarea','pre','code'],
-            ignoreClass: 'tex2jax_ignore',
-            processClass: 'tex2jax_process'
-          },
-        },
-
-        // reveal.js plugins
-        plugins: [
-          RevealMath,
-          RevealNotes,
-          RevealSearch,
-          RevealZoom
-        ]
-      });
-    </script>
-    </body>
-</html>

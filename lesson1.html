@@ -7,20 +7,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/css/reveal.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/reveal.css"/>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/css/theme/moon.css" id="theme"/>
-
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/theme/moon.css" id="theme"/>
 </head>
 <body>
 <div class="reveal">
@@ -33,10 +22,24 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#/slide-1">1. lesson 2</a>
+<li><a href="#/slide-1">1. Lesson 1/9</a>
 <ul>
-<li><a href="#/slide-1-1">1.1. lesson 2</a></li>
-<li><a href="#/slide-1-2">1.2. python data types 数据类别：</a></li>
+<li><a href="#/slide-1-1">1.1. Vocabulary to include in your BP</a></li>
+<li><a href="#/slide-1-2">1.2. 从scratch迈向Python</a></li>
+</ul>
+</li>
+<li><a href="#/slide-2">2. lesson 2/9</a>
+<ul>
+<li><a href="#/slide-2-1">2.1. python data types 数据类别：</a></li>
+</ul>
+</li>
+<li><a href="#/slide-3">3. lesson 3/9</a></li>
+<li><a href="#/slide-4">4. lesson 4/9</a>
+<ul>
+<li><a href="#/slide-4-1">4.1. Comments/注释</a></li>
+<li><a href="#/slide-4-2">4.2. Creating variables</a></li>
+<li><a href="#/slide-4-3">4.3. Use variables as much as you can</a></li>
+<li><a href="#/slide-4-4">4.4. Wrap up and homework</a></li>
 </ul>
 </li>
 </ul>
@@ -45,19 +48,60 @@
 </section>
 <section>
 <section id="slide-1">
-<h2 id="1"><span class="section-number-2">1</span> lesson 2</h2>
+<h2 id="1"><span class="section-number-2">1</span> Lesson 1/9</h2>
 <div class="outline-text-2" id="text-1">
 </div>
 </section>
 <section id="slide-1-1">
-<h3 id="1-1"><span class="section-number-3">1.1</span> lesson 2</h3>
+<h3 id="1-1"><span class="section-number-3">1.1</span> Vocabulary to include in your BP</h3>
 <p>
-  GNU nano 4.8                                                                  New Buffer                                                                  Modified
-今天的作业还是优化大图像，也要家以下几点：
+根据今天的反馈jason要用房间里的白板画出他脑海里的python big picture
+(要包含以下几项:
 </p>
+<ul>
+<li>python英雄</li>
+<li>computer 电脑</li>
+<li>Store 存储</li>
+<li>Process处理</li>
+<li>Machine Language机器语言</li>
+<li>Jason编程人员</li>
+<li>Envelope 信封</li>
+<li>Letter(信封里的信)</li>
+<li>Standard Input标准输入</li>
+<li>python`left hand ,</li>
+<li>python &rsquo;s right hand</li>
+<li>Standard Output标准输出</li>
+<li>Standard Error标准错误,，</li>
+<li>print/say(显示)</li>
+<li>return(返回)</li>
+
+</ul>
 </section>
 <section id="slide-1-2">
-<h3 id="1-2"><span class="section-number-3">1.2</span> python data types 数据类别：</h3>
+<h3 id="1-2"><span class="section-number-3">1.2</span> 从scratch迈向Python</h3>
+<p>
+尽量要自觉把scratch的知识和新学的PYTHON捆绑联系
+今天我可以听出来他学过东西(比如我知道他学过如何&ldquo;把a变量设置为某个值&rdquo;，我想知道他还学过什么)。不用给我看他写得游戏这没有意义，我要的[&gt;
+就是scratch 的拼图模块之一)。
+有兴趣请关注此链路：<a href="http://dl.icdst.org/pdfs/files3/4ffa4aa1bc45437ee8a47595b53aff94.pdf">http://dl.icdst.org/pdfs/files3/4ffa4aa1bc45437ee8a47595b53aff94.pdf</a>
+</p>
+
+
+
+<iframe width="100%" height="650px" src="http://dl.icdst.org/pdfs/files3/4ffa4aa1bc45437ee8a47595b53aff94.pdf"></iframe>
+</section>
+</section>
+<section>
+<section id="slide-2">
+<h2 id="2"><span class="section-number-2">2</span> lesson 2/9</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+<section id="slide-2-1">
+<h3 id="2-1"><span class="section-number-3">2.1</span> python data types 数据类别：</h3>
+<p>
+Please put the following items within you BP
+</p>
 <ul>
 <li>boolean</li>
 <li>string (字符串）</li>
@@ -67,20 +111,167 @@
 <li>dictionaries</li>
 
 </ul>
-<ol>
-<li>重点在string, integer and float
-Jason should add his hello.py to his big picture
-making sure he uses variable declaration.
-他要把他的hello.py 也画进去。
- hello.py 文件里面不要乱用双引号和括号！</li>
 
-</ol>
+<p>
+Attention: 重点在string, integer and float
+   Jason should add his hello.py to his big picture
+   making sure he uses variable declaration.
+   他要把他的hello.py 也画进去。
+    hello.py 文件里面不要乱用双引号和括号！
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-3">
+<h2 id="3"><span class="section-number-2">3</span> lesson 3/9</h2>
+<p>
+input 输入
+图左是 Scratch 的表达方式, 图右是 Python 的语法。在 Scratch 中提问的结果会放入「答案」这个变数, Python 可以使用 input() 达&gt;
+<img src="./assets/input.png" alt="input.png" />
+output 输出
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+<img src="./assets/output.png" alt="output.png" />
+arithmetic operations 数学运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+<img src="./assets/math.png" alt="math.png" />
+</p>
+
+<p>
+string operations 字串运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+<img src="./assets/string.png" alt="string.png" />
+comparison and logical operations 字串运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+<img src="./assets/logic.png" alt="logic.png" />
+</p>
+
+<p>
+advanced math 进阶数学运算
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+<img src="./assets/math2.png" alt="math2.png" />
+</p>
+
+<p>
+loop 回圈
+图左是 Scratch 的表达方式, 图右是 Python 的语法。
+<img src="./assets/loop.png" alt="loop.png" />
+</p>
+
+<p>
+increment 变数
+图左是 Scratch 的表达方式, 图右是 Python 的语法。 Python 可以使用中文「分数」当作变数名称。
+<img src="./assets/increment.png" alt="increment.png" />
+</p>
+
+<p>
+list 列表
+图左是 Scratch 的表达方式, 图右是 Python 的语法。 Python 可以使用中文「清单」当作变数名称。
+<img src="./assets/list.png" alt="list.png" />
+</p>
+</section>
+</section>
+<section>
+<section id="slide-4">
+<h2 id="4"><span class="section-number-2">4</span> lesson 4/9</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+</section>
+<section id="slide-4-1">
+<h3 id="4-1"><span class="section-number-3">4.1</span> Comments/注释</h3>
+<p>
+Comments are section of your code that will not be executed by Python, they are typically there to explain what is happening (useful when you work with others).
+确保对模块, 函数, 方法和行内注释使用正确的风格
+Python中的注释有单行注释和多行注释：
+Python中单行注释以 # 开头，例如：
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #5B6268;"># </span><span style="color: #5B6268;">the following code is a print statement</span>
+<span style="color: #51afef;">print</span>(<span style="color: #98be65;">"Hello World, my name is Jason!"</span>)
+</pre>
+</div>
+<p>
+多行注释如下：
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #83898d;">'''</span>
+<span style="color: #83898d;">The code below is a simple print statement.</span>
+<span style="color: #83898d;">I am giving python a string of characters,</span>
+<span style="color: #83898d;">and I ask python to send it (to print it, to display it)</span>
+<span style="color: #83898d;">onto the standard output (typically the standard output is</span>
+<span style="color: #83898d;">the screen)</span>
+<span style="color: #83898d;">'''</span>
+<span style="color: #51afef;">print</span>(<span style="color: #98be65;">"Hello World, my name is Jason and I am a coder"</span>)
+</pre>
+</div>
+<p>
+多行注释用三个单引号 &rsquo;&rsquo;&rsquo; 或者三个双引号 &ldquo;&rdquo;&ldquo; 将注释括起来
+</p>
+</section>
+<section id="slide-4-2">
+<h3 id="4-2"><span class="section-number-3">4.2</span> Creating variables</h3>
+<p>
+We talked about variables already. I said that variables are like labeled/named boxes that contain data.
+check the code below, and guess what python will do when it read it line by line:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #dcaeea;">jason_age</span> = <span style="color: #da8548; font-weight: bold;">10</span>
+<span style="color: #dcaeea;">jason_best_friend</span> = <span style="color: #98be65;">"Milo"</span>
+<span style="color: #dcaeea;">jason_birth_year</span> = <span style="color: #da8548; font-weight: bold;">2020</span> - jason_age
+<span style="color: #51afef;">print</span>(jason_age)
+<span style="color: #51afef;">print</span>(jason_best_friend)
+<span style="color: #51afef;">print</span>(jason_birth_year)
+</pre>
+</div>
+</section>
+<section id="slide-4-3">
+<h3 id="4-3"><span class="section-number-3">4.3</span> Use variables as much as you can</h3>
+<p>
+Within the section about comments we asked python to print &ldquo;Hello World, my name is&#x2026;&rdquo;.
+Although it is correct, each time we can put data in a box and give that box a name we should do it&#x2026;so let&rsquo;s do it!
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #dcaeea;">hello</span> = <span style="color: #98be65;">"Hello World, my name is Jason and I am coder"</span>.
+<span style="color: #dcaeea;">byebye</span> = <span style="color: #98be65;">"It was a pleasure to meet you, see you soon"</span>
+<span style="color: #51afef;">print</span>(hello)
+<span style="color: #51afef;">print</span>(byebye)
+</pre>
+</div>
+</section>
+<section id="slide-4-4">
+<h3 id="4-4"><span class="section-number-3">4.4</span> Wrap up and homework</h3>
+<p>
+Here is the code we looked at during the class.
+You asked me:
+</p>
+<ul>
+<li>&ldquo;why are we using a &lsquo;f&rsquo; ?&rdquo;</li>
+<li>&ldquo;what is the empty []?&rdquo;</li>
+<li>&ldquo;Line 19 and 23 why are we using 2 pairs of parentheses/parens?&rdquo;</li>
+
+</ul>
+<p>
+We will solve all those mysteries but for now please read the code below outloud, look at the different colors, and commit line 13,15 and 17 to memory (write those 3 lines 20 times!
+</p>
+
+
+<div id="org03d3898" class="figure">
+<p><img src="./assets/restaurant.png" alt="restaurant.png" />
+</p>
+</div>
 </section>
 </section>
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/lib/js/head.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/js/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/zoom/zoom.js"></script>
 <script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
@@ -100,17 +291,15 @@ pdfSeparateFragments: true,
 
 overview: true,
 
-theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transition: 'convex',
 transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
 
 // Optional libraries used to extend reveal.js
 dependencies: [
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.8.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }]
+]
 
 });
 </script>
