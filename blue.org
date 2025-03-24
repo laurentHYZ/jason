@@ -2196,6 +2196,8 @@ insert the missing part of the code below to output "Hello World":
 _____("Hello world")
 Restaurants must be able to STORE food & PROCESS/COOK it.
 A storage space full of food is not a restaurant.
+** added a title, and hope to add it to the previous commit.
+I am too lazy to rewrite a commit message.
 
 ** Chit-chat 聊天区
 You want to chat with Python? Do it here!
@@ -2233,5 +2235,8 @@ If you want to write letter to python here!
 vb
 * adding a paragraph
 and a line within that paragraph as well.
+<<<<<<< HEAD
 * adding another title again to earlier commit.
 that's so easy.
+=======
+>>>>>>> 1a72852 (another one, a better one)
