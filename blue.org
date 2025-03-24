@@ -2184,7 +2184,13 @@ function showButtons(style) {
   </body>
 
 
+
 #+END_EXPORT
+
+
+this line is very important.
+I added it. I want to commit that line to an earlier commit. Let's see if I can do that
+
 ** 填空
 insert the missing part of the code below to output "Hello World":
 _____("Hello world")
@@ -2196,6 +2202,8 @@ You want to chat with Python? Do it here!
 #+BEGIN_EXPORT html
 <iframe src="https://trinket.io/embed/console/13c197b5a3" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 #+END_EXPORT
+** chat-chat discussion added
+and a chacha line as well.
 
 ** Writing Letter
 If you want to write letter to python here!
